@@ -35,7 +35,7 @@ proxy-providers:
     type: http
     url: "https://proxypoolsstest.herokuapp.com/clash/proxies?filter=1&c=CN,HK,TW"
     interval: 1800
-    path: ./*.yaml
+    path: ./other.yaml
     health-check:
       enable: true
       interval: 120
