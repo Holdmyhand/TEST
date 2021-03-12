@@ -33,9 +33,9 @@ proxy-groups:
 proxy-providers:
   relay:
     type: http
-    url: "http://91io.cn/s/lgM1ud"
+    url: "https://proxypoolsstest.herokuapp.com/clash/proxies?filter=1&c=CN,HK,TW"
     interval: 1800
-    path: ./relay.yaml
+    path: ./*.yaml
     health-check:
       enable: true
       interval: 120
