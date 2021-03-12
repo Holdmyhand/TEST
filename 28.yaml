@@ -243,7 +243,7 @@ rules:
   - DOMAIN-SUFFIX,icij.org,全局选择
   - DOMAIN-SUFFIX,icoco.com,全局选择
   - DOMAIN-SUFFIX,imgur.com,全局选择
-  - DOMAIN-SUFFIX,initiummrelay.com,全局选择
+  - DOMAIN-SUFFIX,initiummall.com,全局选择
   - DOMAIN-SUFFIX,insecam.org,全局选择
   - DOMAIN-SUFFIX,ipfs.io,全局选择
   - DOMAIN-SUFFIX,issuu.com,全局选择
@@ -283,7 +283,7 @@ rules:
   - DOMAIN-SUFFIX,naver.com,全局选择
   - DOMAIN-SUFFIX,neowin.net,全局选择
   - DOMAIN-SUFFIX,newstapa.org,全局选择
-  - DOMAIN-SUFFIX,nexitrelayy.com,全局选择
+  - DOMAIN-SUFFIX,nexitally.com,全局选择
   - DOMAIN-SUFFIX,nhk.or.jp,全局选择
   - DOMAIN-SUFFIX,nicovideo.jp,全局选择
   - DOMAIN-SUFFIX,nii.ac.jp,全局选择
@@ -352,7 +352,7 @@ rules:
   - DOMAIN-SUFFIX,startpage.com,全局选择
   - DOMAIN-SUFFIX,steamcommunity.com,全局选择
   - DOMAIN-SUFFIX,steemit.com,全局选择
-  - DOMAIN-SUFFIX,steemitwrelayet.com,全局选择
+  - DOMAIN-SUFFIX,steemitwallet.com,全局选择
   - DOMAIN-SUFFIX,t66y.com,全局选择
   - DOMAIN-SUFFIX,tapatalk.com,全局选择
   - DOMAIN-SUFFIX,teco-hk.org,全局选择
@@ -531,7 +531,7 @@ rules:
   - DOMAIN-SUFFIX,0rz.tw,全局选择
   - DOMAIN-SUFFIX,4bluestones.biz,全局选择
   - DOMAIN-SUFFIX,9bis.net,全局选择
-  - DOMAIN-SUFFIX,relayconnected.co,全局选择
+  - DOMAIN-SUFFIX,allconnected.co,全局选择
   - DOMAIN-SUFFIX,aol.com,全局选择
   - DOMAIN-SUFFIX,bcc.com.tw,全局选择
   - DOMAIN-SUFFIX,bit.ly,全局选择
@@ -834,8 +834,8 @@ rules:
   - DOMAIN-SUFFIX,mxhichina.com,DIRECT
   - DOMAIN-SUFFIX,soku.com,DIRECT
   - DOMAIN-SUFFIX,taobao.com,DIRECT
-  - DOMAIN-SUFFIX,tmrelay.com,DIRECT
-  - DOMAIN-SUFFIX,tmrelay.hk,DIRECT
+  - DOMAIN-SUFFIX,tmall.com,DIRECT
+  - DOMAIN-SUFFIX,tmall.hk,DIRECT
   - DOMAIN-SUFFIX,ykimg.com,DIRECT
   - DOMAIN-SUFFIX,youku.com,DIRECT
   - DOMAIN-SUFFIX,xiami.com,DIRECT
@@ -1004,7 +1004,7 @@ rules:
   - DOMAIN-SUFFIX,ebscohost.com,DIRECT
   - DOMAIN-SUFFIX,emerald.com,DIRECT
   - DOMAIN-SUFFIX,engineeringvillage.com,DIRECT
-  - DOMAIN-SUFFIX,icevirturelayibrary.com,DIRECT
+  - DOMAIN-SUFFIX,icevirtuallibrary.com,DIRECT
   - DOMAIN-SUFFIX,ieee.org,DIRECT
   - DOMAIN-SUFFIX,imf.org,DIRECT
   - DOMAIN-SUFFIX,iop.org,DIRECT
@@ -1032,7 +1032,7 @@ rules:
   - DOMAIN-SUFFIX,sciencemag.org,DIRECT
   - DOMAIN-SUFFIX,scopus.com,DIRECT
   - DOMAIN-SUFFIX,siam.org,DIRECT
-  - DOMAIN-SUFFIX,spiedigitrelayibrary.org,DIRECT
+  - DOMAIN-SUFFIX,spiedigitallibrary.org,DIRECT
   - DOMAIN-SUFFIX,springer.com,DIRECT
   - DOMAIN-SUFFIX,springerlink.com,DIRECT
   - DOMAIN-SUFFIX,tandfonline.com,DIRECT
@@ -1153,8 +1153,6 @@ rules:
   - DOMAIN-SUFFIX,zhihu.com,DIRECT
   - DOMAIN-SUFFIX,zhimg.com,DIRECT
   - DOMAIN-SUFFIX,zhuihd.com,DIRECT
-  - DOMAIN-SUFFIX,qlogo,DIRECT
-  - DOMAIN-SUFFIX,qpic.cn,DIRECT
   - DOMAIN,download.jetbrains.com,DIRECT
   - DOMAIN,images-cn.ssl-images-amazon.com,DIRECT
   - IP-CIDR,119.28.28.28/32,DIRECT,no-resolve
