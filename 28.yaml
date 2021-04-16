@@ -6,7 +6,7 @@ redir-port: 7892
 tproxy-port: 7893
 mixed-port: 7894
 
-relayow-lan: false
+#relayow-lan: false
 mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
