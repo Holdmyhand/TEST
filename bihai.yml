@@ -14,7 +14,7 @@ proxies:
   - {name: 🇬🇧 英国🚆, server: jc.ap.fastqvpn.com, port: 29987, type: http, username: "467258706753490944", password: "14162956-9425-4cf9-8f33-83426f6462b0", tls: true, skip-cert-verify: true}
   - {name: 🇺🇸 美国🚲, server: jc.ap.fastqvpn.com, port: 29985, type: http, username: "467258706753490944", password: "14162956-9425-4cf9-8f33-83426f6462b0", tls: true, skip-cert-verify: true}
 proxy-groups:
-  - name: 1 jianlian VPN 🛸
+  - name: 🛸节点选择
     type: select
     proxies:
       - 🇭🇰 香港🛰️
