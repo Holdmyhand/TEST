@@ -5,8 +5,8 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 香港🛰️, server: jc.ap.fastqvpn.com, port: 29980, type: http, username: "469891470527037440", password: 2ed41039-d529-4518-a239-99f75bf47d2, tls: true, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡🛸, server: jc.ap.fastqvpn.com, port: 29988, type: http, username: "469891470527037440", password: 2ed41039-d529-4518-a239-99f75bf47d2, tls: true, skip-cert-verify: false}
+  - {name: 🇭🇰 香港🛰️, server: jc.ap.fastqvpn.com, port: 29980, type: http, username: "469891470527037440", password: 2ed41039-d529-4518-a239-99f75bf47d2, tls: true, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡🛸, server: jc.ap.fastqvpn.com, port: 29988, type: http, username: "469891470527037440", password: 2ed41039-d529-4518-a239-99f75bf47d2, tls: true, skip-cert-verify: true}
   - {name: 🇦🇺 澳大利亚🚁, server: jc.ap.fastqvpn.com, port: 29987, type: http, username: "469891470527037440", password: 2ed41039-d529-4518-a239-99f75bf47d2, tls: true, skip-cert-verify: true}
   - {name: 🇨🇦 加拿大⛵, server: jc.ap.fastqvpn.com, port: 29983, type: http, username: "469891470527037440", password: 2ed41039-d529-4518-a239-99f75bf47d2, tls: true, skip-cert-verify: true}
   - {name: 🇩🇪 德国🚀, server: jc.ap.fastqvpn.com, port: 29984, type: http, username: "469891470527037440", password: 2ed41039-d529-4518-a239-99f75bf47d2, tls: true, skip-cert-verify: true}
