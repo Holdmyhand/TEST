@@ -6,9 +6,9 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: 🇭🇰 微软云 香港 1G/S, server: transit-azure-f4s-hk.speedtestcustom.tk, port: 443, type: trojan, password: aab3bdcb-2dfe-4060-9577-6f3e46a8597d, sni: transit-azure-f4s-hk.speedtestcustom.tk, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 微软云 香港 1G/S =中转=> 新加坡 100M/S, server: transit-azure-f4s-hk.speedtestcustom.tk, port: 60251, type: trojan, password: 5a0e280870a29512ebc09a603853329f, sni: transit-azure-f4s-hk.speedtestcustom.tk, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 微软云 香港 1G/S =中转=> 甲骨文 日本 100M/S, server: transit-azure-f4s-hk.speedtestcustom.tk, port: 35337, type: trojan, password: 8ee18770-9811-4ef0-a36c-480ece3f48b4, sni: transit-azure-f4s-hk.speedtestcustom.tk, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 微软云 香港 1G/S =中转=> 锂 日本 100M/S, server: transit-azure-f4s-hk.speedtestcustom.tk, port: 52415, type: trojan, password: 909a474d-3a6a-4284-96f6-51d4d88fa5d8, sni: transit-azure-f4s-hk.speedtestcustom.tk, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港=中转=>新加坡 100M/S, server: transit-azure-f4s-hk.speedtestcustom.tk, port: 60251, type: trojan, password: 5a0e280870a29512ebc09a603853329f, sni: transit-azure-f4s-hk.speedtestcustom.tk, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港=中转=> 甲骨文 日本 100M/S, server: transit-azure-f4s-hk.speedtestcustom.tk, port: 35337, type: trojan, password: 8ee18770-9811-4ef0-a36c-480ece3f48b4, sni: transit-azure-f4s-hk.speedtestcustom.tk, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港=中转=> 锂 日本 100M/S, server: transit-azure-f4s-hk.speedtestcustom.tk, port: 52415, type: trojan, password: 909a474d-3a6a-4284-96f6-51d4d88fa5d8, sni: transit-azure-f4s-hk.speedtestcustom.tk, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 甲骨文 日本 100M/S, server: 152.70.99.72, port: 443, type: trojan, password: 8ee18770-9811-4ef0-a36c-480ece3f48b4, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 锂 日本 100M/S, server: 172.104.86.26, port: 443, type: trojan, password: 909a474d-3a6a-4284-96f6-51d4d88fa5d8, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 DO-SGP, server: 174.138.20.12, port: 443, type: trojan, password: 5a0e280870a29512ebc09a603853329f, skip-cert-verify: true, udp: true}
