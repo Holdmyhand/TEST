@@ -14,7 +14,6 @@ proxies:
   - {name: 🇺🇸 美国 2, server: 173.82.226.134, port: 60000, type: ssr, cipher: dummy, password: enter, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: ""}
   - {name: 🇺🇸 美国 3, server: 173.82.245.228, port: 60000, type: ssr, cipher: dummy, password: libev, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: ""}
   - {name: 🇺🇸 美国 4, server: 154.9.204.21, port: 60000, type: ssr, cipher: dummy, password: bananaa@, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: 联通 2, server: 38.143.0.85, port: 50000, type: ssr, cipher: dummy, password: bananaa@, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: ""}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -30,7 +29,6 @@ proxy-groups:
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
       - 🇺🇸 美国 4
-      - 联通 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -45,7 +43,6 @@ proxy-groups:
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
       - 🇺🇸 美国 4
-      - 联通 2
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -61,7 +58,6 @@ proxy-groups:
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
       - 🇺🇸 美国 4
-      - 联通 2
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -81,7 +77,6 @@ proxy-groups:
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
       - 🇺🇸 美国 4
-      - 联通 2
   - name: 📲 电报信息
     type: select
     proxies:
@@ -96,7 +91,6 @@ proxy-groups:
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
       - 🇺🇸 美国 4
-      - 联通 2
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -112,7 +106,6 @@ proxy-groups:
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
       - 🇺🇸 美国 4
-      - 联通 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -137,7 +130,6 @@ proxy-groups:
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
       - 🇺🇸 美国 4
-      - 联通 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
