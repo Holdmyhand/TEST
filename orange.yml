@@ -5,9 +5,11 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 电信, server: 154.3.5.248, port: 60086, type: ssr, cipher: dummy, password: banana@, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: 联通, server: 154.3.5.250, port: 40086, type: ssr, cipher: dummy, password: banana@@, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: 🇺🇸 美国, server: 38.143.0.61, port: 50088, type: ssr, cipher: dummy, password: banana@, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: 联通, server: 100.43.163.9, port: 40086, type: ssr, cipher: dummy, password: sealplus008, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: 联通 2, server: 38.143.0.19, port: 40085, type: ssr, cipher: dummy, password: banan, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: 联通 3, server: 154.9.204.30, port: 50000, type: ssr, cipher: dummy, password: banana, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: 🇺🇸 美国, server: 154.9.204.156, port: 60000, type: ssr, cipher: dummy, password: banana, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: 电信, server: 38.143.0.22, port: 60001, type: ssr, cipher: dummy, password: Python, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: ""}
   - {name: 🇺🇸 美国 2, server: 173.82.186.25, port: 60000, type: ssr, cipher: dummy, password: enter, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: ""}
   - {name: 🇺🇸 美国 3, server: 173.82.226.134, port: 60000, type: ssr, cipher: dummy, password: enter, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: ""}
   - {name: 🇺🇸 美国 4, server: 173.82.245.228, port: 60000, type: ssr, cipher: dummy, password: libev, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: ""}
@@ -17,9 +19,11 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 电信
       - 联通
+      - 联通 2
+      - 联通 3
       - 🇺🇸 美国
+      - 电信
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
       - 🇺🇸 美国 4
@@ -28,9 +32,11 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 电信
       - 联通
+      - 联通 2
+      - 联通 3
       - 🇺🇸 美国
+      - 电信
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
       - 🇺🇸 美国 4
@@ -40,9 +46,11 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 电信
       - 联通
+      - 联通 2
+      - 联通 3
       - 🇺🇸 美国
+      - 电信
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
       - 🇺🇸 美国 4
@@ -56,9 +64,11 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 电信
       - 联通
+      - 联通 2
+      - 联通 3
       - 🇺🇸 美国
+      - 电信
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
       - 🇺🇸 美国 4
@@ -67,9 +77,11 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 电信
       - 联通
+      - 联通 2
+      - 联通 3
       - 🇺🇸 美国
+      - 电信
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
       - 🇺🇸 美国 4
@@ -79,9 +91,11 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 电信
       - 联通
+      - 联通 2
+      - 联通 3
       - 🇺🇸 美国
+      - 电信
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
       - 🇺🇸 美国 4
@@ -100,9 +114,11 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 电信
       - 联通
+      - 联通 2
+      - 联通 3
       - 🇺🇸 美国
+      - 电信
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
       - 🇺🇸 美国 4
