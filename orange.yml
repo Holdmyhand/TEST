@@ -5,26 +5,25 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 永久免费 疾速Pro, server: 0107hk.fans8.xyz, port: 80, type: vmess, uuid: 14292541-6d37-3afc-aac4-1c4969ba312a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0107hk.fans8.xyz}}}
-  - {name: 永久免费 疾速Pro 2, server: 128tw01.fans8.xyz, port: 80, type: vmess, uuid: 14292541-6d37-3afc-aac4-1c4969ba312a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 128tw01.fans8.xyz}}}
-  - {name: 永久免费 疾速Pro 3, server: 128hk01.fans8.xyz, port: 80, type: vmess, uuid: 14292541-6d37-3afc-aac4-1c4969ba312a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 128hk01.fans8.xyz}}}
-  - {name: 永久免费 疾速Pro 4, server: 1207tw.fans8.xyz, port: 80, type: vmess, uuid: 14292541-6d37-3afc-aac4-1c4969ba312a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1207tw.fans8.xyz}}}
-  - {name: 永久免费 疾速Pro 5, server: 1222mnl.fans8.xyz, port: 80, type: vmess, uuid: 14292541-6d37-3afc-aac4-1c4969ba312a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1222mnl.fans8.xyz}}}
-  - {name: 永久免费 疾速Pro 6, server: 1211hk1.fans8.xyz, port: 80, type: vmess, uuid: 14292541-6d37-3afc-aac4-1c4969ba312a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1211hk1.fans8.xyz}}}
-  - {name: 永久免费 疾速Pro 7, server: 1222ru.fans8.xyz, port: 80, type: vmess, uuid: 14292541-6d37-3afc-aac4-1c4969ba312a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1222ru.fans8.xyz}}}
-  - {name: 永久免费 疾速Pro 8, server: 1031kr.fans8.xyz, port: 80, type: vmess, uuid: 14292541-6d37-3afc-aac4-1c4969ba312a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1031kr.fans8.xyz}}}
-  - {name: 永久免费 疾速Pro 9, server: 0118ru.fans8.xyz, port: 80, type: vmess, uuid: 14292541-6d37-3afc-aac4-1c4969ba312a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0118ru.fans8.xyz}}}
-  - {name: 永久免费 疾速Pro 10, server: 0122us.fans8.xyz, port: 80, type: vmess, uuid: 14292541-6d37-3afc-aac4-1c4969ba312a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0122us.fans8.xyz}}}
-  - {name: 永久免费 疾速Pro 11, server: 128hk8.fans8.xyz, port: 80, type: vmess, uuid: 14292541-6d37-3afc-aac4-1c4969ba312a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 128hk8.fans8.xyz}}}
-  - {name: 永久免费 疾速Pro 12, server: 0218jp05.fans8.xyz, port: 80, type: vmess, uuid: 14292541-6d37-3afc-aac4-1c4969ba312a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0218jp05.fans8.xyz}}}
-  - {name: 永久免费 疾速Pro 13, server: 0218jp09.fans8.xyz, port: 80, type: vmess, uuid: 14292541-6d37-3afc-aac4-1c4969ba312a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0218jp09.fans8.xyz}}}
-  - {name: 永久免费 疾速Pro 14, server: 1222us.fans8.xyz, port: 80, type: vmess, uuid: 14292541-6d37-3afc-aac4-1c4969ba312a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1222us.fans8.xyz}}}
-  - {name: 永久免费 疾速Pro 15, server: 0218hk01.fans8.xyz, port: 80, type: vmess, uuid: 14292541-6d37-3afc-aac4-1c4969ba312a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0218hk01.fans8.xyz}}}
-  - {name: 永久免费 疾速Pro 16, server: 0218hk09.fans8.xyz, port: 80, type: vmess, uuid: 14292541-6d37-3afc-aac4-1c4969ba312a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0218hk09.fans8.xyz}}}
-  - {name: 永久免费 疾速Pro 17, server: 128tw02.fans8.xyz, port: 80, type: vmess, uuid: 14292541-6d37-3afc-aac4-1c4969ba312a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 128tw02.fans8.xyz}}}
-  - {name: freequick.ml, server: 0218tw02.fans8.xyz, port: 80, type: vmess, uuid: 14292541-6d37-3afc-aac4-1c4969ba312a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0218tw02.fans8.xyz}}}
-  - {name: 官网👇👇👇, server: 0218kr02.fans8.xyz, port: 80, type: vmess, uuid: 14292541-6d37-3afc-aac4-1c4969ba312a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0218kr02.fans8.xyz}}}
-  - {name: 永久免费 疾速Pro 18, server: 0218jp01.fans8.xyz, port: 80, type: vmess, uuid: 14292541-6d37-3afc-aac4-1c4969ba312a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0218jp01.fans8.xyz}}}
+  - {name: 永久免费 疾速Pro, server: 0122us.fans8.xyz, port: 80, type: vmess, uuid: e579c27f-481a-35e6-9664-197ac28e2d62, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0122us.fans8.xyz}}}
+  - {name: 永久免费 疾速Pro 2, server: 1031kr.fans8.xyz, port: 80, type: vmess, uuid: e579c27f-481a-35e6-9664-197ac28e2d62, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1031kr.fans8.xyz}}}
+  - {name: 永久免费 疾速Pro 3, server: 128hk01.fans8.xyz, port: 80, type: vmess, uuid: e579c27f-481a-35e6-9664-197ac28e2d62, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 128hk01.fans8.xyz}}}
+  - {name: 永久免费 疾速Pro 4, server: 0107hk.fans8.xyz, port: 80, type: vmess, uuid: e579c27f-481a-35e6-9664-197ac28e2d62, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0107hk.fans8.xyz}}}
+  - {name: 永久免费 疾速Pro 5, server: 1207tw.fans8.xyz, port: 80, type: vmess, uuid: e579c27f-481a-35e6-9664-197ac28e2d62, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1207tw.fans8.xyz}}}
+  - {name: 永久免费 疾速Pro 6, server: 128tw01.fans8.xyz, port: 80, type: vmess, uuid: e579c27f-481a-35e6-9664-197ac28e2d62, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 128tw01.fans8.xyz}}}
+  - {name: 永久免费 疾速Pro 7, server: 0219sg.fans8.xyz, port: 80, type: vmess, uuid: e579c27f-481a-35e6-9664-197ac28e2d62, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0219sg.fans8.xyz}}}
+  - {name: 永久免费 疾速Pro 8, server: 1222ru.fans8.xyz, port: 80, type: vmess, uuid: e579c27f-481a-35e6-9664-197ac28e2d62, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1222ru.fans8.xyz}}}
+  - {name: 永久免费 疾速Pro 9, server: 128tw02.fans8.xyz, port: 80, type: vmess, uuid: e579c27f-481a-35e6-9664-197ac28e2d62, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 128tw02.fans8.xyz}}}
+  - {name: 永久免费 疾速Pro 10, server: 0118ru.fans8.xyz, port: 80, type: vmess, uuid: e579c27f-481a-35e6-9664-197ac28e2d62, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0118ru.fans8.xyz}}}
+  - {name: 永久免费 疾速Pro 11, server: 1211hk1.fans8.xyz, port: 80, type: vmess, uuid: e579c27f-481a-35e6-9664-197ac28e2d62, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1211hk1.fans8.xyz}}}
+  - {name: 永久免费 疾速Pro 12, server: 0220hk08.fans8.xyz, port: 80, type: vmess, uuid: e579c27f-481a-35e6-9664-197ac28e2d62, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0220hk08.fans8.xyz}}}
+  - {name: 永久免费 疾速Pro 13, server: 1222mnl.fans8.xyz, port: 80, type: vmess, uuid: e579c27f-481a-35e6-9664-197ac28e2d62, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1222mnl.fans8.xyz}}}
+  - {name: 永久免费 疾速Pro 14, server: 0218jp09.fans8.xyz, port: 80, type: vmess, uuid: e579c27f-481a-35e6-9664-197ac28e2d62, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0218jp09.fans8.xyz}}}
+  - {name: 永久免费 疾速Pro 15, server: 0218tw02.fans8.xyz, port: 80, type: vmess, uuid: e579c27f-481a-35e6-9664-197ac28e2d62, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0218tw02.fans8.xyz}}}
+  - {name: 永久免费 疾速Pro 16, server: 0218kr02.fans8.xyz, port: 80, type: vmess, uuid: e579c27f-481a-35e6-9664-197ac28e2d62, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0218kr02.fans8.xyz}}}
+  - {name: freequick.ml, server: 0220hk05.fans8.xyz, port: 80, type: vmess, uuid: e579c27f-481a-35e6-9664-197ac28e2d62, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0220hk05.fans8.xyz}}}
+  - {name: 官网👇👇👇, server: 0220sg05.fans8.xyz, port: 80, type: vmess, uuid: e579c27f-481a-35e6-9664-197ac28e2d62, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0220sg05.fans8.xyz}}}
+  - {name: 永久免费 疾速Pro 17, server: 0218jp05.fans8.xyz, port: 80, type: vmess, uuid: e579c27f-481a-35e6-9664-197ac28e2d62, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0218jp05.fans8.xyz}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -47,10 +46,9 @@ proxy-groups:
       - 永久免费 疾速Pro 14
       - 永久免费 疾速Pro 15
       - 永久免费 疾速Pro 16
-      - 永久免费 疾速Pro 17
       - freequick.ml
       - 官网👇👇👇
-      - 永久免费 疾速Pro 18
+      - 永久免费 疾速Pro 17
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -72,10 +70,9 @@ proxy-groups:
       - 永久免费 疾速Pro 14
       - 永久免费 疾速Pro 15
       - 永久免费 疾速Pro 16
-      - 永久免费 疾速Pro 17
       - freequick.ml
       - 官网👇👇👇
-      - 永久免费 疾速Pro 18
+      - 永久免费 疾速Pro 17
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -98,10 +95,9 @@ proxy-groups:
       - 永久免费 疾速Pro 14
       - 永久免费 疾速Pro 15
       - 永久免费 疾速Pro 16
-      - 永久免费 疾速Pro 17
       - freequick.ml
       - 官网👇👇👇
-      - 永久免费 疾速Pro 18
+      - 永久免费 疾速Pro 17
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -128,10 +124,9 @@ proxy-groups:
       - 永久免费 疾速Pro 14
       - 永久免费 疾速Pro 15
       - 永久免费 疾速Pro 16
-      - 永久免费 疾速Pro 17
       - freequick.ml
       - 官网👇👇👇
-      - 永久免费 疾速Pro 18
+      - 永久免费 疾速Pro 17
   - name: 📲 电报信息
     type: select
     proxies:
@@ -153,10 +148,9 @@ proxy-groups:
       - 永久免费 疾速Pro 14
       - 永久免费 疾速Pro 15
       - 永久免费 疾速Pro 16
-      - 永久免费 疾速Pro 17
       - freequick.ml
       - 官网👇👇👇
-      - 永久免费 疾速Pro 18
+      - 永久免费 疾速Pro 17
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -179,10 +173,9 @@ proxy-groups:
       - 永久免费 疾速Pro 14
       - 永久免费 疾速Pro 15
       - 永久免费 疾速Pro 16
-      - 永久免费 疾速Pro 17
       - freequick.ml
       - 官网👇👇👇
-      - 永久免费 疾速Pro 18
+      - 永久免费 疾速Pro 17
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -214,10 +207,9 @@ proxy-groups:
       - 永久免费 疾速Pro 14
       - 永久免费 疾速Pro 15
       - 永久免费 疾速Pro 16
-      - 永久免费 疾速Pro 17
       - freequick.ml
       - 官网👇👇👇
-      - 永久免费 疾速Pro 18
+      - 永久免费 疾速Pro 17
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
