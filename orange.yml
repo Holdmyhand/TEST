@@ -5,611 +5,405 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 疾速Pro, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}}
-  - {name: 🇬🇧 疾速Pro英国, server: 172.99.190.92, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇨🇦 疾速Pro加拿大, server: 134.195.196.3, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇨🇦 疾速Pro加拿大 2, server: 134.195.196.227, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 疾速Pro 2, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}}
-  - {name: 🇬🇧 疾速Pro英国 2, server: 145.239.7.164, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 疾速Pro加拿大 3, server: 134.195.196.68, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇦 疾速Pro加拿大 4, server: 134.195.196.68, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇨🇦 疾速Pro加拿大 5, server: 134.195.196.12, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇫🇷 疾速Pro法国, server: 51.255.66.185, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇫🇷 疾速Pro法国 2, server: 51.255.66.185, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇫🇷 疾速Pro法国 3, server: 51.255.66.185, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇨🇦 疾速Pro加拿大 6, server: 134.195.196.187, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇨🇦 疾速Pro加拿大 7, server: 134.195.196.12, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇫🇷 疾速Pro法国 4, server: 51.255.66.185, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇫🇷 疾速Pro法国 5, server: 51.255.66.185, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇬🇧 疾速Pro英国 3, server: 172.99.190.92, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇺🇸 疾速Pro美国, server: 169.197.142.187, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇺🇸 疾速Pro美国 2, server: 169.197.142.187, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇬🇧 疾速Pro英国 4, server: 145.239.7.164, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇦 疾速Pro加拿大 8, server: 134.195.196.68, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 🇨🇦 疾速Pro加拿大 9, server: 134.195.196.187, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇨🇦 疾速Pro加拿大 10, server: 134.195.196.187, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇨🇦 疾速Pro加拿大 11, server: 134.195.196.12, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇨🇦 疾速Pro加拿大 12, server: 134.195.196.12, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇨🇦 疾速Pro加拿大 13, server: 134.195.196.12, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇫🇷 疾速Pro法国 6, server: 51.255.66.185, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 疾速Pro 3, server: 42.193.48.64, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇦 疾速Pro加拿大 14, server: 134.195.196.68, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇨🇦 疾速Pro加拿大 15, server: 134.195.196.3, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇨🇦 疾速Pro加拿大 16, server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇨🇦 疾速Pro加拿大 17, server: 134.195.196.227, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇨🇦 疾速Pro加拿大 18, server: 134.195.196.227, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇨🇦 疾速Pro加拿大 19, server: 134.195.196.187, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇨🇦 疾速Pro加拿大 20, server: 134.195.196.12, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇨🇦 疾速Pro加拿大 21, server: 134.195.196.12, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇨🇦 疾速Pro加拿大 22, server: 134.195.196.12, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇬🇧 疾速Pro英国 5, server: 172.99.190.92, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇬🇧 疾速Pro英国 6, server: 172.99.190.92, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇨🇦 疾速Pro加拿大 23, server: 134.195.196.68, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇨🇦 疾速Pro加拿大 24, server: 134.195.196.227, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇨🇦 疾速Pro加拿大 25, server: 134.195.196.227, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇨🇦 疾速Pro加拿大 26, server: 134.195.196.227, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇨🇦 疾速Pro加拿大 27, server: 134.195.196.227, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇨🇦 疾速Pro加拿大 28, server: 134.195.196.187, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇨🇦 疾速Pro加拿大 29, server: 134.195.196.12, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇦 疾速Pro加拿大 30, server: 134.195.196.12, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇨🇦 疾速Pro加拿大 31, server: 134.195.196.68, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇨🇦 疾速Pro加拿大 32, server: 134.195.196.68, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇨🇦 疾速Pro加拿大 33, server: 134.195.196.68, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇨🇦 疾速Pro加拿大 34, server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇦 疾速Pro加拿大 35, server: 134.195.196.12, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇨🇦 疾速Pro加拿大 36, server: 134.195.196.12, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇨🇦 疾速Pro加拿大 37, server: 134.195.196.12, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇦 疾速Pro加拿大 38, server: 134.195.196.12, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇨🇦 疾速Pro加拿大 39, server: 134.195.196.12, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇨🇦 疾速Pro加拿大 40, server: 134.195.196.12, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇬🇧 疾速Pro英国 7, server: 172.99.190.92, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇨🇦 疾速Pro加拿大 41, server: 134.195.196.68, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇦 疾速Pro加拿大 42, server: 134.195.196.68, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇨🇦 疾速Pro加拿大 43, server: 134.195.196.68, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇨🇦 疾速Pro加拿大 44, server: 134.195.196.3, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇨🇦 疾速Pro加拿大 45, server: 134.195.196.3, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇨🇦 疾速Pro加拿大 46, server: 134.195.196.3, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇨🇦 疾速Pro加拿大 47, server: 134.195.196.187, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇨🇦 疾速Pro加拿大 48, server: 134.195.196.12, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇨🇦 疾速Pro加拿大 49, server: 134.195.196.12, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇦 疾速Pro加拿大 50, server: 134.195.196.68, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇨🇦 疾速Pro加拿大 51, server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇦 疾速Pro加拿大 52, server: 134.195.196.3, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 🇨🇦 疾速Pro加拿大 53, server: 134.195.196.227, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇨🇦 疾速Pro加拿大 54, server: 134.195.196.12, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇦 疾速Pro加拿大 55, server: 134.195.196.12, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 疾速Pro加拿大 56, server: 134.195.196.68, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 🇨🇦 疾速Pro加拿大 57, server: 134.195.196.3, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇨🇦 疾速Pro加拿大 58, server: 134.195.196.3, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇸🇬 疾速Pro新加坡, server: 172.104.168.83, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇨🇦 疾速Pro加拿大 59, server: 134.195.196.68, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇨🇦 疾速Pro加拿大 60, server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇯🇵 疾速Pro日本, server: 85.208.110.138, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇨🇦 疾速Pro加拿大 61, server: 198.57.27.172, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇯🇵 日本, server: 85.208.108.90, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 加拿大, server: 134.195.196.3, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇨🇦 加拿大 2, server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 加拿大 3, server: 134.195.196.187, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 加拿大 4, server: 134.195.196.3, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇨🇦 加拿大 5, server: 134.195.196.68, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇨🇦 加拿大 6, server: 134.195.196.3, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇨🇦 加拿大 7, server: 134.195.196.187, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇨🇦 加拿大 8, server: 134.195.196.187, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 加拿大 9, server: 134.195.196.187, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇺🇸 美国, server: 169.197.142.187, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇨🇦 加拿大 10, server: 134.195.196.68, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇫🇷 法国, server: 51.255.66.185, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 美国 2, server: 38.86.135.36, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 加拿大 11, server: 134.195.196.187, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇦 加拿大 12, server: 134.195.196.68, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇺🇸 美国 3, server: iesei1ei.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: iesei1ei.com}}}
+  - {name: 🇨🇦 加拿大 13, server: 134.195.196.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇬🇧 英国, server: 172.99.190.92, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 加拿大 14, server: 134.195.196.68, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 加拿大 15, server: 134.195.196.3, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇨🇦 加拿大 16, server: 134.195.196.68, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇨🇦 加拿大 17, server: 134.195.196.187, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇬🇧 英国 2, server: 172.99.190.92, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇨🇦 加拿大 18, server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 美国 4, server: 38.91.100.102, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇺🇸 美国 5, server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 美国 6, server: 169.197.142.187, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇺🇸 美国 7, server: 169.197.142.99, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇨🇦 加拿大 19, server: 134.195.196.68, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇨🇦 加拿大 20, server: 134.195.196.3, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇫🇷 法国 2, server: 51.255.66.185, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇺🇸 美国 8, server: 169.197.142.187, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇺🇸 美国 9, server: cm.db-link.in, port: 443, type: vmess, uuid: 64e167a8-5cf1-3bbc-866e-13e43b97dda0, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /db, headers: {Host: us01.db-link.in}}}
+  - {name: 🇨🇦 加拿大 21, server: 134.195.196.187, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇨🇦 加拿大 22, server: 134.195.196.187, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇨🇦 加拿大 23, server: 134.195.196.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇨🇦 加拿大 24, server: 134.195.196.187, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇨🇦 加拿大 25, server: 134.195.196.68, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇨🇦 加拿大 26, server: 134.195.196.187, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇨🇦 加拿大 27, server: 134.195.196.187, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇬🇧 英国 3, server: 172.99.190.92, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 美国 10, server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇯🇵 日本 2, server: ms.byronwood.co.uk, port: 443, type: vmess, uuid: 0ff0b97e-31ea-4447-81da-2b1b5f6a2a7f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /iso-windows10, headers: {Host: ms.byronwood.co.uk}}}
+  - {name: 🇭🇰 疾速Pro香港, server: 0306hk03.fans8.xyz, port: 80, type: vmess, uuid: 3b8f6b51-1924-37d2-a376-8e0361d5e0b3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0306hk03.fans8.xyz}}}
+  - {name: 🇭🇰 疾速Pro香港 2, server: 0306hk05.fans8.xyz, port: 80, type: vmess, uuid: 3b8f6b51-1924-37d2-a376-8e0361d5e0b3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0306hk05.fans8.xyz}}}
+  - {name: 🇭🇰 疾速Pro香港 3, server: 0306hk01.fans8.xyz, port: 80, type: vmess, uuid: 3b8f6b51-1924-37d2-a376-8e0361d5e0b3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0306hk01.fans8.xyz}}}
+  - {name: 🇺🇸 疾速Pro美国, server: 0306us09.fans8.xyz, port: 80, type: vmess, uuid: 3b8f6b51-1924-37d2-a376-8e0361d5e0b3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0306us09.fans8.xyz}}}
+  - {name: 🇨🇳 疾速Pro台湾, server: 0222tw.fans8.xyz, port: 80, type: vmess, uuid: 3b8f6b51-1924-37d2-a376-8e0361d5e0b3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0222tw.fans8.xyz}}}
+  - {name: 🇯🇵 疾速Pro日本, server: 0306jp08.fans8.xyz, port: 80, type: vmess, uuid: 3b8f6b51-1924-37d2-a376-8e0361d5e0b3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0306jp08.fans8.xyz}}}
+  - {name: 🇯🇵 疾速Pro日本 2, server: ms.byronwood.co.uk, port: 443, type: vmess, uuid: 0ff0b97e-31ea-4447-81da-2b1b5f6a2a7f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: ms.byronwood.co.uk, network: ws, ws-opts: {path: /iso-windows10, headers: {Host: ms.byronwood.co.uk}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 疾速Pro
-      - 🇬🇧 疾速Pro英国
-      - 🇨🇦 疾速Pro加拿大
-      - 🇨🇦 疾速Pro加拿大 2
-      - 疾速Pro 2
-      - 🇬🇧 疾速Pro英国 2
-      - 🇨🇦 疾速Pro加拿大 3
-      - 🇨🇦 疾速Pro加拿大 4
-      - 🇨🇦 疾速Pro加拿大 5
-      - 🇫🇷 疾速Pro法国
-      - 🇫🇷 疾速Pro法国 2
-      - 🇫🇷 疾速Pro法国 3
-      - 🇨🇦 疾速Pro加拿大 6
-      - 🇨🇦 疾速Pro加拿大 7
-      - 🇫🇷 疾速Pro法国 4
-      - 🇫🇷 疾速Pro法国 5
-      - 🇬🇧 疾速Pro英国 3
+      - 🇯🇵 日本
+      - 🇨🇦 加拿大
+      - 🇨🇦 加拿大 2
+      - 🇨🇦 加拿大 3
+      - 🇨🇦 加拿大 4
+      - 🇨🇦 加拿大 5
+      - 🇨🇦 加拿大 6
+      - 🇨🇦 加拿大 7
+      - 🇨🇦 加拿大 8
+      - 🇨🇦 加拿大 9
+      - 🇺🇸 美国
+      - 🇨🇦 加拿大 10
+      - 🇫🇷 法国
+      - 🇺🇸 美国 2
+      - 🇨🇦 加拿大 11
+      - 🇨🇦 加拿大 12
+      - 🇺🇸 美国 3
+      - 🇨🇦 加拿大 13
+      - 🇬🇧 英国
+      - 🇨🇦 加拿大 14
+      - 🇨🇦 加拿大 15
+      - 🇨🇦 加拿大 16
+      - 🇨🇦 加拿大 17
+      - 🇬🇧 英国 2
+      - 🇨🇦 加拿大 18
+      - 🇺🇸 美国 4
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 6
+      - 🇺🇸 美国 7
+      - 🇨🇦 加拿大 19
+      - 🇨🇦 加拿大 20
+      - 🇫🇷 法国 2
+      - 🇺🇸 美国 8
+      - 🇺🇸 美国 9
+      - 🇨🇦 加拿大 21
+      - 🇨🇦 加拿大 22
+      - 🇨🇦 加拿大 23
+      - 🇨🇦 加拿大 24
+      - 🇨🇦 加拿大 25
+      - 🇨🇦 加拿大 26
+      - 🇨🇦 加拿大 27
+      - 🇬🇧 英国 3
+      - 🇺🇸 美国 10
+      - 🇯🇵 日本 2
+      - 🇭🇰 疾速Pro香港
+      - 🇭🇰 疾速Pro香港 2
+      - 🇭🇰 疾速Pro香港 3
       - 🇺🇸 疾速Pro美国
-      - 🇺🇸 疾速Pro美国 2
-      - 🇬🇧 疾速Pro英国 4
-      - 🇨🇦 疾速Pro加拿大 8
-      - 🇨🇦 疾速Pro加拿大 9
-      - 🇨🇦 疾速Pro加拿大 10
-      - 🇨🇦 疾速Pro加拿大 11
-      - 🇨🇦 疾速Pro加拿大 12
-      - 🇨🇦 疾速Pro加拿大 13
-      - 🇫🇷 疾速Pro法国 6
-      - 疾速Pro 3
-      - 🇨🇦 疾速Pro加拿大 14
-      - 🇨🇦 疾速Pro加拿大 15
-      - 🇨🇦 疾速Pro加拿大 16
-      - 🇨🇦 疾速Pro加拿大 17
-      - 🇨🇦 疾速Pro加拿大 18
-      - 🇨🇦 疾速Pro加拿大 19
-      - 🇨🇦 疾速Pro加拿大 20
-      - 🇨🇦 疾速Pro加拿大 21
-      - 🇨🇦 疾速Pro加拿大 22
-      - 🇬🇧 疾速Pro英国 5
-      - 🇬🇧 疾速Pro英国 6
-      - 🇨🇦 疾速Pro加拿大 23
-      - 🇨🇦 疾速Pro加拿大 24
-      - 🇨🇦 疾速Pro加拿大 25
-      - 🇨🇦 疾速Pro加拿大 26
-      - 🇨🇦 疾速Pro加拿大 27
-      - 🇨🇦 疾速Pro加拿大 28
-      - 🇨🇦 疾速Pro加拿大 29
-      - 🇨🇦 疾速Pro加拿大 30
-      - 🇨🇦 疾速Pro加拿大 31
-      - 🇨🇦 疾速Pro加拿大 32
-      - 🇨🇦 疾速Pro加拿大 33
-      - 🇨🇦 疾速Pro加拿大 34
-      - 🇨🇦 疾速Pro加拿大 35
-      - 🇨🇦 疾速Pro加拿大 36
-      - 🇨🇦 疾速Pro加拿大 37
-      - 🇨🇦 疾速Pro加拿大 38
-      - 🇨🇦 疾速Pro加拿大 39
-      - 🇨🇦 疾速Pro加拿大 40
-      - 🇬🇧 疾速Pro英国 7
-      - 🇨🇦 疾速Pro加拿大 41
-      - 🇨🇦 疾速Pro加拿大 42
-      - 🇨🇦 疾速Pro加拿大 43
-      - 🇨🇦 疾速Pro加拿大 44
-      - 🇨🇦 疾速Pro加拿大 45
-      - 🇨🇦 疾速Pro加拿大 46
-      - 🇨🇦 疾速Pro加拿大 47
-      - 🇨🇦 疾速Pro加拿大 48
-      - 🇨🇦 疾速Pro加拿大 49
-      - 🇨🇦 疾速Pro加拿大 50
-      - 🇨🇦 疾速Pro加拿大 51
-      - 🇨🇦 疾速Pro加拿大 52
-      - 🇨🇦 疾速Pro加拿大 53
-      - 🇨🇦 疾速Pro加拿大 54
-      - 🇨🇦 疾速Pro加拿大 55
-      - 🇨🇦 疾速Pro加拿大 56
-      - 🇨🇦 疾速Pro加拿大 57
-      - 🇨🇦 疾速Pro加拿大 58
-      - 🇸🇬 疾速Pro新加坡
-      - 🇨🇦 疾速Pro加拿大 59
-      - 🇨🇦 疾速Pro加拿大 60
+      - 🇨🇳 疾速Pro台湾
       - 🇯🇵 疾速Pro日本
-      - 🇨🇦 疾速Pro加拿大 61
+      - 🇯🇵 疾速Pro日本 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 疾速Pro
-      - 🇬🇧 疾速Pro英国
-      - 🇨🇦 疾速Pro加拿大
-      - 🇨🇦 疾速Pro加拿大 2
-      - 疾速Pro 2
-      - 🇬🇧 疾速Pro英国 2
-      - 🇨🇦 疾速Pro加拿大 3
-      - 🇨🇦 疾速Pro加拿大 4
-      - 🇨🇦 疾速Pro加拿大 5
-      - 🇫🇷 疾速Pro法国
-      - 🇫🇷 疾速Pro法国 2
-      - 🇫🇷 疾速Pro法国 3
-      - 🇨🇦 疾速Pro加拿大 6
-      - 🇨🇦 疾速Pro加拿大 7
-      - 🇫🇷 疾速Pro法国 4
-      - 🇫🇷 疾速Pro法国 5
-      - 🇬🇧 疾速Pro英国 3
+      - 🇯🇵 日本
+      - 🇨🇦 加拿大
+      - 🇨🇦 加拿大 2
+      - 🇨🇦 加拿大 3
+      - 🇨🇦 加拿大 4
+      - 🇨🇦 加拿大 5
+      - 🇨🇦 加拿大 6
+      - 🇨🇦 加拿大 7
+      - 🇨🇦 加拿大 8
+      - 🇨🇦 加拿大 9
+      - 🇺🇸 美国
+      - 🇨🇦 加拿大 10
+      - 🇫🇷 法国
+      - 🇺🇸 美国 2
+      - 🇨🇦 加拿大 11
+      - 🇨🇦 加拿大 12
+      - 🇺🇸 美国 3
+      - 🇨🇦 加拿大 13
+      - 🇬🇧 英国
+      - 🇨🇦 加拿大 14
+      - 🇨🇦 加拿大 15
+      - 🇨🇦 加拿大 16
+      - 🇨🇦 加拿大 17
+      - 🇬🇧 英国 2
+      - 🇨🇦 加拿大 18
+      - 🇺🇸 美国 4
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 6
+      - 🇺🇸 美国 7
+      - 🇨🇦 加拿大 19
+      - 🇨🇦 加拿大 20
+      - 🇫🇷 法国 2
+      - 🇺🇸 美国 8
+      - 🇺🇸 美国 9
+      - 🇨🇦 加拿大 21
+      - 🇨🇦 加拿大 22
+      - 🇨🇦 加拿大 23
+      - 🇨🇦 加拿大 24
+      - 🇨🇦 加拿大 25
+      - 🇨🇦 加拿大 26
+      - 🇨🇦 加拿大 27
+      - 🇬🇧 英国 3
+      - 🇺🇸 美国 10
+      - 🇯🇵 日本 2
+      - 🇭🇰 疾速Pro香港
+      - 🇭🇰 疾速Pro香港 2
+      - 🇭🇰 疾速Pro香港 3
       - 🇺🇸 疾速Pro美国
-      - 🇺🇸 疾速Pro美国 2
-      - 🇬🇧 疾速Pro英国 4
-      - 🇨🇦 疾速Pro加拿大 8
-      - 🇨🇦 疾速Pro加拿大 9
-      - 🇨🇦 疾速Pro加拿大 10
-      - 🇨🇦 疾速Pro加拿大 11
-      - 🇨🇦 疾速Pro加拿大 12
-      - 🇨🇦 疾速Pro加拿大 13
-      - 🇫🇷 疾速Pro法国 6
-      - 疾速Pro 3
-      - 🇨🇦 疾速Pro加拿大 14
-      - 🇨🇦 疾速Pro加拿大 15
-      - 🇨🇦 疾速Pro加拿大 16
-      - 🇨🇦 疾速Pro加拿大 17
-      - 🇨🇦 疾速Pro加拿大 18
-      - 🇨🇦 疾速Pro加拿大 19
-      - 🇨🇦 疾速Pro加拿大 20
-      - 🇨🇦 疾速Pro加拿大 21
-      - 🇨🇦 疾速Pro加拿大 22
-      - 🇬🇧 疾速Pro英国 5
-      - 🇬🇧 疾速Pro英国 6
-      - 🇨🇦 疾速Pro加拿大 23
-      - 🇨🇦 疾速Pro加拿大 24
-      - 🇨🇦 疾速Pro加拿大 25
-      - 🇨🇦 疾速Pro加拿大 26
-      - 🇨🇦 疾速Pro加拿大 27
-      - 🇨🇦 疾速Pro加拿大 28
-      - 🇨🇦 疾速Pro加拿大 29
-      - 🇨🇦 疾速Pro加拿大 30
-      - 🇨🇦 疾速Pro加拿大 31
-      - 🇨🇦 疾速Pro加拿大 32
-      - 🇨🇦 疾速Pro加拿大 33
-      - 🇨🇦 疾速Pro加拿大 34
-      - 🇨🇦 疾速Pro加拿大 35
-      - 🇨🇦 疾速Pro加拿大 36
-      - 🇨🇦 疾速Pro加拿大 37
-      - 🇨🇦 疾速Pro加拿大 38
-      - 🇨🇦 疾速Pro加拿大 39
-      - 🇨🇦 疾速Pro加拿大 40
-      - 🇬🇧 疾速Pro英国 7
-      - 🇨🇦 疾速Pro加拿大 41
-      - 🇨🇦 疾速Pro加拿大 42
-      - 🇨🇦 疾速Pro加拿大 43
-      - 🇨🇦 疾速Pro加拿大 44
-      - 🇨🇦 疾速Pro加拿大 45
-      - 🇨🇦 疾速Pro加拿大 46
-      - 🇨🇦 疾速Pro加拿大 47
-      - 🇨🇦 疾速Pro加拿大 48
-      - 🇨🇦 疾速Pro加拿大 49
-      - 🇨🇦 疾速Pro加拿大 50
-      - 🇨🇦 疾速Pro加拿大 51
-      - 🇨🇦 疾速Pro加拿大 52
-      - 🇨🇦 疾速Pro加拿大 53
-      - 🇨🇦 疾速Pro加拿大 54
-      - 🇨🇦 疾速Pro加拿大 55
-      - 🇨🇦 疾速Pro加拿大 56
-      - 🇨🇦 疾速Pro加拿大 57
-      - 🇨🇦 疾速Pro加拿大 58
-      - 🇸🇬 疾速Pro新加坡
-      - 🇨🇦 疾速Pro加拿大 59
-      - 🇨🇦 疾速Pro加拿大 60
+      - 🇨🇳 疾速Pro台湾
       - 🇯🇵 疾速Pro日本
-      - 🇨🇦 疾速Pro加拿大 61
+      - 🇯🇵 疾速Pro日本 2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 疾速Pro
-      - 🇬🇧 疾速Pro英国
-      - 🇨🇦 疾速Pro加拿大
-      - 🇨🇦 疾速Pro加拿大 2
-      - 疾速Pro 2
-      - 🇬🇧 疾速Pro英国 2
-      - 🇨🇦 疾速Pro加拿大 3
-      - 🇨🇦 疾速Pro加拿大 4
-      - 🇨🇦 疾速Pro加拿大 5
-      - 🇫🇷 疾速Pro法国
-      - 🇫🇷 疾速Pro法国 2
-      - 🇫🇷 疾速Pro法国 3
-      - 🇨🇦 疾速Pro加拿大 6
-      - 🇨🇦 疾速Pro加拿大 7
-      - 🇫🇷 疾速Pro法国 4
-      - 🇫🇷 疾速Pro法国 5
-      - 🇬🇧 疾速Pro英国 3
+      - 🇯🇵 日本
+      - 🇨🇦 加拿大
+      - 🇨🇦 加拿大 2
+      - 🇨🇦 加拿大 3
+      - 🇨🇦 加拿大 4
+      - 🇨🇦 加拿大 5
+      - 🇨🇦 加拿大 6
+      - 🇨🇦 加拿大 7
+      - 🇨🇦 加拿大 8
+      - 🇨🇦 加拿大 9
+      - 🇺🇸 美国
+      - 🇨🇦 加拿大 10
+      - 🇫🇷 法国
+      - 🇺🇸 美国 2
+      - 🇨🇦 加拿大 11
+      - 🇨🇦 加拿大 12
+      - 🇺🇸 美国 3
+      - 🇨🇦 加拿大 13
+      - 🇬🇧 英国
+      - 🇨🇦 加拿大 14
+      - 🇨🇦 加拿大 15
+      - 🇨🇦 加拿大 16
+      - 🇨🇦 加拿大 17
+      - 🇬🇧 英国 2
+      - 🇨🇦 加拿大 18
+      - 🇺🇸 美国 4
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 6
+      - 🇺🇸 美国 7
+      - 🇨🇦 加拿大 19
+      - 🇨🇦 加拿大 20
+      - 🇫🇷 法国 2
+      - 🇺🇸 美国 8
+      - 🇺🇸 美国 9
+      - 🇨🇦 加拿大 21
+      - 🇨🇦 加拿大 22
+      - 🇨🇦 加拿大 23
+      - 🇨🇦 加拿大 24
+      - 🇨🇦 加拿大 25
+      - 🇨🇦 加拿大 26
+      - 🇨🇦 加拿大 27
+      - 🇬🇧 英国 3
+      - 🇺🇸 美国 10
+      - 🇯🇵 日本 2
+      - 🇭🇰 疾速Pro香港
+      - 🇭🇰 疾速Pro香港 2
+      - 🇭🇰 疾速Pro香港 3
       - 🇺🇸 疾速Pro美国
-      - 🇺🇸 疾速Pro美国 2
-      - 🇬🇧 疾速Pro英国 4
-      - 🇨🇦 疾速Pro加拿大 8
-      - 🇨🇦 疾速Pro加拿大 9
-      - 🇨🇦 疾速Pro加拿大 10
-      - 🇨🇦 疾速Pro加拿大 11
-      - 🇨🇦 疾速Pro加拿大 12
-      - 🇨🇦 疾速Pro加拿大 13
-      - 🇫🇷 疾速Pro法国 6
-      - 疾速Pro 3
-      - 🇨🇦 疾速Pro加拿大 14
-      - 🇨🇦 疾速Pro加拿大 15
-      - 🇨🇦 疾速Pro加拿大 16
-      - 🇨🇦 疾速Pro加拿大 17
-      - 🇨🇦 疾速Pro加拿大 18
-      - 🇨🇦 疾速Pro加拿大 19
-      - 🇨🇦 疾速Pro加拿大 20
-      - 🇨🇦 疾速Pro加拿大 21
-      - 🇨🇦 疾速Pro加拿大 22
-      - 🇬🇧 疾速Pro英国 5
-      - 🇬🇧 疾速Pro英国 6
-      - 🇨🇦 疾速Pro加拿大 23
-      - 🇨🇦 疾速Pro加拿大 24
-      - 🇨🇦 疾速Pro加拿大 25
-      - 🇨🇦 疾速Pro加拿大 26
-      - 🇨🇦 疾速Pro加拿大 27
-      - 🇨🇦 疾速Pro加拿大 28
-      - 🇨🇦 疾速Pro加拿大 29
-      - 🇨🇦 疾速Pro加拿大 30
-      - 🇨🇦 疾速Pro加拿大 31
-      - 🇨🇦 疾速Pro加拿大 32
-      - 🇨🇦 疾速Pro加拿大 33
-      - 🇨🇦 疾速Pro加拿大 34
-      - 🇨🇦 疾速Pro加拿大 35
-      - 🇨🇦 疾速Pro加拿大 36
-      - 🇨🇦 疾速Pro加拿大 37
-      - 🇨🇦 疾速Pro加拿大 38
-      - 🇨🇦 疾速Pro加拿大 39
-      - 🇨🇦 疾速Pro加拿大 40
-      - 🇬🇧 疾速Pro英国 7
-      - 🇨🇦 疾速Pro加拿大 41
-      - 🇨🇦 疾速Pro加拿大 42
-      - 🇨🇦 疾速Pro加拿大 43
-      - 🇨🇦 疾速Pro加拿大 44
-      - 🇨🇦 疾速Pro加拿大 45
-      - 🇨🇦 疾速Pro加拿大 46
-      - 🇨🇦 疾速Pro加拿大 47
-      - 🇨🇦 疾速Pro加拿大 48
-      - 🇨🇦 疾速Pro加拿大 49
-      - 🇨🇦 疾速Pro加拿大 50
-      - 🇨🇦 疾速Pro加拿大 51
-      - 🇨🇦 疾速Pro加拿大 52
-      - 🇨🇦 疾速Pro加拿大 53
-      - 🇨🇦 疾速Pro加拿大 54
-      - 🇨🇦 疾速Pro加拿大 55
-      - 🇨🇦 疾速Pro加拿大 56
-      - 🇨🇦 疾速Pro加拿大 57
-      - 🇨🇦 疾速Pro加拿大 58
-      - 🇸🇬 疾速Pro新加坡
-      - 🇨🇦 疾速Pro加拿大 59
-      - 🇨🇦 疾速Pro加拿大 60
+      - 🇨🇳 疾速Pro台湾
       - 🇯🇵 疾速Pro日本
-      - 🇨🇦 疾速Pro加拿大 61
+      - 🇯🇵 疾速Pro日本 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 疾速Pro香港
+      - 🇭🇰 疾速Pro香港 2
+      - 🇭🇰 疾速Pro香港 3
+      - 🇨🇳 疾速Pro台湾
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 疾速Pro
-      - 🇬🇧 疾速Pro英国
-      - 🇨🇦 疾速Pro加拿大
-      - 🇨🇦 疾速Pro加拿大 2
-      - 疾速Pro 2
-      - 🇬🇧 疾速Pro英国 2
-      - 🇨🇦 疾速Pro加拿大 3
-      - 🇨🇦 疾速Pro加拿大 4
-      - 🇨🇦 疾速Pro加拿大 5
-      - 🇫🇷 疾速Pro法国
-      - 🇫🇷 疾速Pro法国 2
-      - 🇫🇷 疾速Pro法国 3
-      - 🇨🇦 疾速Pro加拿大 6
-      - 🇨🇦 疾速Pro加拿大 7
-      - 🇫🇷 疾速Pro法国 4
-      - 🇫🇷 疾速Pro法国 5
-      - 🇬🇧 疾速Pro英国 3
+      - 🇯🇵 日本
+      - 🇨🇦 加拿大
+      - 🇨🇦 加拿大 2
+      - 🇨🇦 加拿大 3
+      - 🇨🇦 加拿大 4
+      - 🇨🇦 加拿大 5
+      - 🇨🇦 加拿大 6
+      - 🇨🇦 加拿大 7
+      - 🇨🇦 加拿大 8
+      - 🇨🇦 加拿大 9
+      - 🇺🇸 美国
+      - 🇨🇦 加拿大 10
+      - 🇫🇷 法国
+      - 🇺🇸 美国 2
+      - 🇨🇦 加拿大 11
+      - 🇨🇦 加拿大 12
+      - 🇺🇸 美国 3
+      - 🇨🇦 加拿大 13
+      - 🇬🇧 英国
+      - 🇨🇦 加拿大 14
+      - 🇨🇦 加拿大 15
+      - 🇨🇦 加拿大 16
+      - 🇨🇦 加拿大 17
+      - 🇬🇧 英国 2
+      - 🇨🇦 加拿大 18
+      - 🇺🇸 美国 4
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 6
+      - 🇺🇸 美国 7
+      - 🇨🇦 加拿大 19
+      - 🇨🇦 加拿大 20
+      - 🇫🇷 法国 2
+      - 🇺🇸 美国 8
+      - 🇺🇸 美国 9
+      - 🇨🇦 加拿大 21
+      - 🇨🇦 加拿大 22
+      - 🇨🇦 加拿大 23
+      - 🇨🇦 加拿大 24
+      - 🇨🇦 加拿大 25
+      - 🇨🇦 加拿大 26
+      - 🇨🇦 加拿大 27
+      - 🇬🇧 英国 3
+      - 🇺🇸 美国 10
+      - 🇯🇵 日本 2
+      - 🇭🇰 疾速Pro香港
+      - 🇭🇰 疾速Pro香港 2
+      - 🇭🇰 疾速Pro香港 3
       - 🇺🇸 疾速Pro美国
-      - 🇺🇸 疾速Pro美国 2
-      - 🇬🇧 疾速Pro英国 4
-      - 🇨🇦 疾速Pro加拿大 8
-      - 🇨🇦 疾速Pro加拿大 9
-      - 🇨🇦 疾速Pro加拿大 10
-      - 🇨🇦 疾速Pro加拿大 11
-      - 🇨🇦 疾速Pro加拿大 12
-      - 🇨🇦 疾速Pro加拿大 13
-      - 🇫🇷 疾速Pro法国 6
-      - 疾速Pro 3
-      - 🇨🇦 疾速Pro加拿大 14
-      - 🇨🇦 疾速Pro加拿大 15
-      - 🇨🇦 疾速Pro加拿大 16
-      - 🇨🇦 疾速Pro加拿大 17
-      - 🇨🇦 疾速Pro加拿大 18
-      - 🇨🇦 疾速Pro加拿大 19
-      - 🇨🇦 疾速Pro加拿大 20
-      - 🇨🇦 疾速Pro加拿大 21
-      - 🇨🇦 疾速Pro加拿大 22
-      - 🇬🇧 疾速Pro英国 5
-      - 🇬🇧 疾速Pro英国 6
-      - 🇨🇦 疾速Pro加拿大 23
-      - 🇨🇦 疾速Pro加拿大 24
-      - 🇨🇦 疾速Pro加拿大 25
-      - 🇨🇦 疾速Pro加拿大 26
-      - 🇨🇦 疾速Pro加拿大 27
-      - 🇨🇦 疾速Pro加拿大 28
-      - 🇨🇦 疾速Pro加拿大 29
-      - 🇨🇦 疾速Pro加拿大 30
-      - 🇨🇦 疾速Pro加拿大 31
-      - 🇨🇦 疾速Pro加拿大 32
-      - 🇨🇦 疾速Pro加拿大 33
-      - 🇨🇦 疾速Pro加拿大 34
-      - 🇨🇦 疾速Pro加拿大 35
-      - 🇨🇦 疾速Pro加拿大 36
-      - 🇨🇦 疾速Pro加拿大 37
-      - 🇨🇦 疾速Pro加拿大 38
-      - 🇨🇦 疾速Pro加拿大 39
-      - 🇨🇦 疾速Pro加拿大 40
-      - 🇬🇧 疾速Pro英国 7
-      - 🇨🇦 疾速Pro加拿大 41
-      - 🇨🇦 疾速Pro加拿大 42
-      - 🇨🇦 疾速Pro加拿大 43
-      - 🇨🇦 疾速Pro加拿大 44
-      - 🇨🇦 疾速Pro加拿大 45
-      - 🇨🇦 疾速Pro加拿大 46
-      - 🇨🇦 疾速Pro加拿大 47
-      - 🇨🇦 疾速Pro加拿大 48
-      - 🇨🇦 疾速Pro加拿大 49
-      - 🇨🇦 疾速Pro加拿大 50
-      - 🇨🇦 疾速Pro加拿大 51
-      - 🇨🇦 疾速Pro加拿大 52
-      - 🇨🇦 疾速Pro加拿大 53
-      - 🇨🇦 疾速Pro加拿大 54
-      - 🇨🇦 疾速Pro加拿大 55
-      - 🇨🇦 疾速Pro加拿大 56
-      - 🇨🇦 疾速Pro加拿大 57
-      - 🇨🇦 疾速Pro加拿大 58
-      - 🇸🇬 疾速Pro新加坡
-      - 🇨🇦 疾速Pro加拿大 59
-      - 🇨🇦 疾速Pro加拿大 60
+      - 🇨🇳 疾速Pro台湾
       - 🇯🇵 疾速Pro日本
-      - 🇨🇦 疾速Pro加拿大 61
+      - 🇯🇵 疾速Pro日本 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 疾速Pro
-      - 🇬🇧 疾速Pro英国
-      - 🇨🇦 疾速Pro加拿大
-      - 🇨🇦 疾速Pro加拿大 2
-      - 疾速Pro 2
-      - 🇬🇧 疾速Pro英国 2
-      - 🇨🇦 疾速Pro加拿大 3
-      - 🇨🇦 疾速Pro加拿大 4
-      - 🇨🇦 疾速Pro加拿大 5
-      - 🇫🇷 疾速Pro法国
-      - 🇫🇷 疾速Pro法国 2
-      - 🇫🇷 疾速Pro法国 3
-      - 🇨🇦 疾速Pro加拿大 6
-      - 🇨🇦 疾速Pro加拿大 7
-      - 🇫🇷 疾速Pro法国 4
-      - 🇫🇷 疾速Pro法国 5
-      - 🇬🇧 疾速Pro英国 3
+      - 🇯🇵 日本
+      - 🇨🇦 加拿大
+      - 🇨🇦 加拿大 2
+      - 🇨🇦 加拿大 3
+      - 🇨🇦 加拿大 4
+      - 🇨🇦 加拿大 5
+      - 🇨🇦 加拿大 6
+      - 🇨🇦 加拿大 7
+      - 🇨🇦 加拿大 8
+      - 🇨🇦 加拿大 9
+      - 🇺🇸 美国
+      - 🇨🇦 加拿大 10
+      - 🇫🇷 法国
+      - 🇺🇸 美国 2
+      - 🇨🇦 加拿大 11
+      - 🇨🇦 加拿大 12
+      - 🇺🇸 美国 3
+      - 🇨🇦 加拿大 13
+      - 🇬🇧 英国
+      - 🇨🇦 加拿大 14
+      - 🇨🇦 加拿大 15
+      - 🇨🇦 加拿大 16
+      - 🇨🇦 加拿大 17
+      - 🇬🇧 英国 2
+      - 🇨🇦 加拿大 18
+      - 🇺🇸 美国 4
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 6
+      - 🇺🇸 美国 7
+      - 🇨🇦 加拿大 19
+      - 🇨🇦 加拿大 20
+      - 🇫🇷 法国 2
+      - 🇺🇸 美国 8
+      - 🇺🇸 美国 9
+      - 🇨🇦 加拿大 21
+      - 🇨🇦 加拿大 22
+      - 🇨🇦 加拿大 23
+      - 🇨🇦 加拿大 24
+      - 🇨🇦 加拿大 25
+      - 🇨🇦 加拿大 26
+      - 🇨🇦 加拿大 27
+      - 🇬🇧 英国 3
+      - 🇺🇸 美国 10
+      - 🇯🇵 日本 2
+      - 🇭🇰 疾速Pro香港
+      - 🇭🇰 疾速Pro香港 2
+      - 🇭🇰 疾速Pro香港 3
       - 🇺🇸 疾速Pro美国
-      - 🇺🇸 疾速Pro美国 2
-      - 🇬🇧 疾速Pro英国 4
-      - 🇨🇦 疾速Pro加拿大 8
-      - 🇨🇦 疾速Pro加拿大 9
-      - 🇨🇦 疾速Pro加拿大 10
-      - 🇨🇦 疾速Pro加拿大 11
-      - 🇨🇦 疾速Pro加拿大 12
-      - 🇨🇦 疾速Pro加拿大 13
-      - 🇫🇷 疾速Pro法国 6
-      - 疾速Pro 3
-      - 🇨🇦 疾速Pro加拿大 14
-      - 🇨🇦 疾速Pro加拿大 15
-      - 🇨🇦 疾速Pro加拿大 16
-      - 🇨🇦 疾速Pro加拿大 17
-      - 🇨🇦 疾速Pro加拿大 18
-      - 🇨🇦 疾速Pro加拿大 19
-      - 🇨🇦 疾速Pro加拿大 20
-      - 🇨🇦 疾速Pro加拿大 21
-      - 🇨🇦 疾速Pro加拿大 22
-      - 🇬🇧 疾速Pro英国 5
-      - 🇬🇧 疾速Pro英国 6
-      - 🇨🇦 疾速Pro加拿大 23
-      - 🇨🇦 疾速Pro加拿大 24
-      - 🇨🇦 疾速Pro加拿大 25
-      - 🇨🇦 疾速Pro加拿大 26
-      - 🇨🇦 疾速Pro加拿大 27
-      - 🇨🇦 疾速Pro加拿大 28
-      - 🇨🇦 疾速Pro加拿大 29
-      - 🇨🇦 疾速Pro加拿大 30
-      - 🇨🇦 疾速Pro加拿大 31
-      - 🇨🇦 疾速Pro加拿大 32
-      - 🇨🇦 疾速Pro加拿大 33
-      - 🇨🇦 疾速Pro加拿大 34
-      - 🇨🇦 疾速Pro加拿大 35
-      - 🇨🇦 疾速Pro加拿大 36
-      - 🇨🇦 疾速Pro加拿大 37
-      - 🇨🇦 疾速Pro加拿大 38
-      - 🇨🇦 疾速Pro加拿大 39
-      - 🇨🇦 疾速Pro加拿大 40
-      - 🇬🇧 疾速Pro英国 7
-      - 🇨🇦 疾速Pro加拿大 41
-      - 🇨🇦 疾速Pro加拿大 42
-      - 🇨🇦 疾速Pro加拿大 43
-      - 🇨🇦 疾速Pro加拿大 44
-      - 🇨🇦 疾速Pro加拿大 45
-      - 🇨🇦 疾速Pro加拿大 46
-      - 🇨🇦 疾速Pro加拿大 47
-      - 🇨🇦 疾速Pro加拿大 48
-      - 🇨🇦 疾速Pro加拿大 49
-      - 🇨🇦 疾速Pro加拿大 50
-      - 🇨🇦 疾速Pro加拿大 51
-      - 🇨🇦 疾速Pro加拿大 52
-      - 🇨🇦 疾速Pro加拿大 53
-      - 🇨🇦 疾速Pro加拿大 54
-      - 🇨🇦 疾速Pro加拿大 55
-      - 🇨🇦 疾速Pro加拿大 56
-      - 🇨🇦 疾速Pro加拿大 57
-      - 🇨🇦 疾速Pro加拿大 58
-      - 🇸🇬 疾速Pro新加坡
-      - 🇨🇦 疾速Pro加拿大 59
-      - 🇨🇦 疾速Pro加拿大 60
+      - 🇨🇳 疾速Pro台湾
       - 🇯🇵 疾速Pro日本
-      - 🇨🇦 疾速Pro加拿大 61
+      - 🇯🇵 疾速Pro日本 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 疾速Pro
-      - 🇬🇧 疾速Pro英国
-      - 🇨🇦 疾速Pro加拿大
-      - 🇨🇦 疾速Pro加拿大 2
-      - 疾速Pro 2
-      - 🇬🇧 疾速Pro英国 2
-      - 🇨🇦 疾速Pro加拿大 3
-      - 🇨🇦 疾速Pro加拿大 4
-      - 🇨🇦 疾速Pro加拿大 5
-      - 🇫🇷 疾速Pro法国
-      - 🇫🇷 疾速Pro法国 2
-      - 🇫🇷 疾速Pro法国 3
-      - 🇨🇦 疾速Pro加拿大 6
-      - 🇨🇦 疾速Pro加拿大 7
-      - 🇫🇷 疾速Pro法国 4
-      - 🇫🇷 疾速Pro法国 5
-      - 🇬🇧 疾速Pro英国 3
+      - 🇯🇵 日本
+      - 🇨🇦 加拿大
+      - 🇨🇦 加拿大 2
+      - 🇨🇦 加拿大 3
+      - 🇨🇦 加拿大 4
+      - 🇨🇦 加拿大 5
+      - 🇨🇦 加拿大 6
+      - 🇨🇦 加拿大 7
+      - 🇨🇦 加拿大 8
+      - 🇨🇦 加拿大 9
+      - 🇺🇸 美国
+      - 🇨🇦 加拿大 10
+      - 🇫🇷 法国
+      - 🇺🇸 美国 2
+      - 🇨🇦 加拿大 11
+      - 🇨🇦 加拿大 12
+      - 🇺🇸 美国 3
+      - 🇨🇦 加拿大 13
+      - 🇬🇧 英国
+      - 🇨🇦 加拿大 14
+      - 🇨🇦 加拿大 15
+      - 🇨🇦 加拿大 16
+      - 🇨🇦 加拿大 17
+      - 🇬🇧 英国 2
+      - 🇨🇦 加拿大 18
+      - 🇺🇸 美国 4
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 6
+      - 🇺🇸 美国 7
+      - 🇨🇦 加拿大 19
+      - 🇨🇦 加拿大 20
+      - 🇫🇷 法国 2
+      - 🇺🇸 美国 8
+      - 🇺🇸 美国 9
+      - 🇨🇦 加拿大 21
+      - 🇨🇦 加拿大 22
+      - 🇨🇦 加拿大 23
+      - 🇨🇦 加拿大 24
+      - 🇨🇦 加拿大 25
+      - 🇨🇦 加拿大 26
+      - 🇨🇦 加拿大 27
+      - 🇬🇧 英国 3
+      - 🇺🇸 美国 10
+      - 🇯🇵 日本 2
+      - 🇭🇰 疾速Pro香港
+      - 🇭🇰 疾速Pro香港 2
+      - 🇭🇰 疾速Pro香港 3
       - 🇺🇸 疾速Pro美国
-      - 🇺🇸 疾速Pro美国 2
-      - 🇬🇧 疾速Pro英国 4
-      - 🇨🇦 疾速Pro加拿大 8
-      - 🇨🇦 疾速Pro加拿大 9
-      - 🇨🇦 疾速Pro加拿大 10
-      - 🇨🇦 疾速Pro加拿大 11
-      - 🇨🇦 疾速Pro加拿大 12
-      - 🇨🇦 疾速Pro加拿大 13
-      - 🇫🇷 疾速Pro法国 6
-      - 疾速Pro 3
-      - 🇨🇦 疾速Pro加拿大 14
-      - 🇨🇦 疾速Pro加拿大 15
-      - 🇨🇦 疾速Pro加拿大 16
-      - 🇨🇦 疾速Pro加拿大 17
-      - 🇨🇦 疾速Pro加拿大 18
-      - 🇨🇦 疾速Pro加拿大 19
-      - 🇨🇦 疾速Pro加拿大 20
-      - 🇨🇦 疾速Pro加拿大 21
-      - 🇨🇦 疾速Pro加拿大 22
-      - 🇬🇧 疾速Pro英国 5
-      - 🇬🇧 疾速Pro英国 6
-      - 🇨🇦 疾速Pro加拿大 23
-      - 🇨🇦 疾速Pro加拿大 24
-      - 🇨🇦 疾速Pro加拿大 25
-      - 🇨🇦 疾速Pro加拿大 26
-      - 🇨🇦 疾速Pro加拿大 27
-      - 🇨🇦 疾速Pro加拿大 28
-      - 🇨🇦 疾速Pro加拿大 29
-      - 🇨🇦 疾速Pro加拿大 30
-      - 🇨🇦 疾速Pro加拿大 31
-      - 🇨🇦 疾速Pro加拿大 32
-      - 🇨🇦 疾速Pro加拿大 33
-      - 🇨🇦 疾速Pro加拿大 34
-      - 🇨🇦 疾速Pro加拿大 35
-      - 🇨🇦 疾速Pro加拿大 36
-      - 🇨🇦 疾速Pro加拿大 37
-      - 🇨🇦 疾速Pro加拿大 38
-      - 🇨🇦 疾速Pro加拿大 39
-      - 🇨🇦 疾速Pro加拿大 40
-      - 🇬🇧 疾速Pro英国 7
-      - 🇨🇦 疾速Pro加拿大 41
-      - 🇨🇦 疾速Pro加拿大 42
-      - 🇨🇦 疾速Pro加拿大 43
-      - 🇨🇦 疾速Pro加拿大 44
-      - 🇨🇦 疾速Pro加拿大 45
-      - 🇨🇦 疾速Pro加拿大 46
-      - 🇨🇦 疾速Pro加拿大 47
-      - 🇨🇦 疾速Pro加拿大 48
-      - 🇨🇦 疾速Pro加拿大 49
-      - 🇨🇦 疾速Pro加拿大 50
-      - 🇨🇦 疾速Pro加拿大 51
-      - 🇨🇦 疾速Pro加拿大 52
-      - 🇨🇦 疾速Pro加拿大 53
-      - 🇨🇦 疾速Pro加拿大 54
-      - 🇨🇦 疾速Pro加拿大 55
-      - 🇨🇦 疾速Pro加拿大 56
-      - 🇨🇦 疾速Pro加拿大 57
-      - 🇨🇦 疾速Pro加拿大 58
-      - 🇸🇬 疾速Pro新加坡
-      - 🇨🇦 疾速Pro加拿大 59
-      - 🇨🇦 疾速Pro加拿大 60
+      - 🇨🇳 疾速Pro台湾
       - 🇯🇵 疾速Pro日本
-      - 🇨🇦 疾速Pro加拿大 61
+      - 🇯🇵 疾速Pro日本 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -625,87 +419,57 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 疾速Pro
-      - 🇬🇧 疾速Pro英国
-      - 🇨🇦 疾速Pro加拿大
-      - 🇨🇦 疾速Pro加拿大 2
-      - 疾速Pro 2
-      - 🇬🇧 疾速Pro英国 2
-      - 🇨🇦 疾速Pro加拿大 3
-      - 🇨🇦 疾速Pro加拿大 4
-      - 🇨🇦 疾速Pro加拿大 5
-      - 🇫🇷 疾速Pro法国
-      - 🇫🇷 疾速Pro法国 2
-      - 🇫🇷 疾速Pro法国 3
-      - 🇨🇦 疾速Pro加拿大 6
-      - 🇨🇦 疾速Pro加拿大 7
-      - 🇫🇷 疾速Pro法国 4
-      - 🇫🇷 疾速Pro法国 5
-      - 🇬🇧 疾速Pro英国 3
+      - 🇯🇵 日本
+      - 🇨🇦 加拿大
+      - 🇨🇦 加拿大 2
+      - 🇨🇦 加拿大 3
+      - 🇨🇦 加拿大 4
+      - 🇨🇦 加拿大 5
+      - 🇨🇦 加拿大 6
+      - 🇨🇦 加拿大 7
+      - 🇨🇦 加拿大 8
+      - 🇨🇦 加拿大 9
+      - 🇺🇸 美国
+      - 🇨🇦 加拿大 10
+      - 🇫🇷 法国
+      - 🇺🇸 美国 2
+      - 🇨🇦 加拿大 11
+      - 🇨🇦 加拿大 12
+      - 🇺🇸 美国 3
+      - 🇨🇦 加拿大 13
+      - 🇬🇧 英国
+      - 🇨🇦 加拿大 14
+      - 🇨🇦 加拿大 15
+      - 🇨🇦 加拿大 16
+      - 🇨🇦 加拿大 17
+      - 🇬🇧 英国 2
+      - 🇨🇦 加拿大 18
+      - 🇺🇸 美国 4
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 6
+      - 🇺🇸 美国 7
+      - 🇨🇦 加拿大 19
+      - 🇨🇦 加拿大 20
+      - 🇫🇷 法国 2
+      - 🇺🇸 美国 8
+      - 🇺🇸 美国 9
+      - 🇨🇦 加拿大 21
+      - 🇨🇦 加拿大 22
+      - 🇨🇦 加拿大 23
+      - 🇨🇦 加拿大 24
+      - 🇨🇦 加拿大 25
+      - 🇨🇦 加拿大 26
+      - 🇨🇦 加拿大 27
+      - 🇬🇧 英国 3
+      - 🇺🇸 美国 10
+      - 🇯🇵 日本 2
+      - 🇭🇰 疾速Pro香港
+      - 🇭🇰 疾速Pro香港 2
+      - 🇭🇰 疾速Pro香港 3
       - 🇺🇸 疾速Pro美国
-      - 🇺🇸 疾速Pro美国 2
-      - 🇬🇧 疾速Pro英国 4
-      - 🇨🇦 疾速Pro加拿大 8
-      - 🇨🇦 疾速Pro加拿大 9
-      - 🇨🇦 疾速Pro加拿大 10
-      - 🇨🇦 疾速Pro加拿大 11
-      - 🇨🇦 疾速Pro加拿大 12
-      - 🇨🇦 疾速Pro加拿大 13
-      - 🇫🇷 疾速Pro法国 6
-      - 疾速Pro 3
-      - 🇨🇦 疾速Pro加拿大 14
-      - 🇨🇦 疾速Pro加拿大 15
-      - 🇨🇦 疾速Pro加拿大 16
-      - 🇨🇦 疾速Pro加拿大 17
-      - 🇨🇦 疾速Pro加拿大 18
-      - 🇨🇦 疾速Pro加拿大 19
-      - 🇨🇦 疾速Pro加拿大 20
-      - 🇨🇦 疾速Pro加拿大 21
-      - 🇨🇦 疾速Pro加拿大 22
-      - 🇬🇧 疾速Pro英国 5
-      - 🇬🇧 疾速Pro英国 6
-      - 🇨🇦 疾速Pro加拿大 23
-      - 🇨🇦 疾速Pro加拿大 24
-      - 🇨🇦 疾速Pro加拿大 25
-      - 🇨🇦 疾速Pro加拿大 26
-      - 🇨🇦 疾速Pro加拿大 27
-      - 🇨🇦 疾速Pro加拿大 28
-      - 🇨🇦 疾速Pro加拿大 29
-      - 🇨🇦 疾速Pro加拿大 30
-      - 🇨🇦 疾速Pro加拿大 31
-      - 🇨🇦 疾速Pro加拿大 32
-      - 🇨🇦 疾速Pro加拿大 33
-      - 🇨🇦 疾速Pro加拿大 34
-      - 🇨🇦 疾速Pro加拿大 35
-      - 🇨🇦 疾速Pro加拿大 36
-      - 🇨🇦 疾速Pro加拿大 37
-      - 🇨🇦 疾速Pro加拿大 38
-      - 🇨🇦 疾速Pro加拿大 39
-      - 🇨🇦 疾速Pro加拿大 40
-      - 🇬🇧 疾速Pro英国 7
-      - 🇨🇦 疾速Pro加拿大 41
-      - 🇨🇦 疾速Pro加拿大 42
-      - 🇨🇦 疾速Pro加拿大 43
-      - 🇨🇦 疾速Pro加拿大 44
-      - 🇨🇦 疾速Pro加拿大 45
-      - 🇨🇦 疾速Pro加拿大 46
-      - 🇨🇦 疾速Pro加拿大 47
-      - 🇨🇦 疾速Pro加拿大 48
-      - 🇨🇦 疾速Pro加拿大 49
-      - 🇨🇦 疾速Pro加拿大 50
-      - 🇨🇦 疾速Pro加拿大 51
-      - 🇨🇦 疾速Pro加拿大 52
-      - 🇨🇦 疾速Pro加拿大 53
-      - 🇨🇦 疾速Pro加拿大 54
-      - 🇨🇦 疾速Pro加拿大 55
-      - 🇨🇦 疾速Pro加拿大 56
-      - 🇨🇦 疾速Pro加拿大 57
-      - 🇨🇦 疾速Pro加拿大 58
-      - 🇸🇬 疾速Pro新加坡
-      - 🇨🇦 疾速Pro加拿大 59
-      - 🇨🇦 疾速Pro加拿大 60
+      - 🇨🇳 疾速Pro台湾
       - 🇯🇵 疾速Pro日本
-      - 🇨🇦 疾速Pro加拿大 61
+      - 🇯🇵 疾速Pro日本 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
