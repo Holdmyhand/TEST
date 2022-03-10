@@ -5,361 +5,376 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇯🇵 日本, server: icook.hk, port: 443, type: vmess, uuid: 9a85a293-3eb7-4189-e17d-bfa46f9ad0ce, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /freebaipiao, headers: {Host: xmlinodejp2.aifx.eu.org}}}
-  - {name: 🇨🇦 加拿大, server: 134.195.196.81, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇨🇦 加拿大 2, server: 134.195.196.81, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇫🇷 法国, server: 51.255.66.185, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇨🇦 加拿大 3, server: 134.195.196.81, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇬🇧 英国, server: 172.99.190.92, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇨🇦 加拿大 4, server: 134.195.196.81, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇨🇦 加拿大 5, server: 134.195.196.81, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇬🇧 英国 2, server: 172.99.190.92, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇬🇧 英国 3, server: 172.99.190.92, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 美国, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: iesei1ei.com}}}
-  - {name: 🇨🇦 加拿大 6, server: 134.195.196.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇨🇦 加拿大 7, server: 134.195.196.81, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇷🇺 俄罗斯联邦, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: 6c175d1a-a57f-4881-a471-173eb139694b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /xrenblog/, headers: {Host: ipv6.xrenblog.com}}}
-  - {name: 🇨🇦 加拿大 8, server: 134.195.196.81, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇨🇦 加拿大 9, server: 134.195.196.81, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇨🇦 加拿大 10, server: 134.195.196.81, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 未命名, server: v6d1.moonfree.top, port: 443, type: vmess, uuid: f11a81c0-3d8d-48f4-bdcf-6bf599844ded, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: v6d.moonfree.top}}}
-  - {name: 🇨🇦 加拿大 11, server: 134.195.196.81, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇨🇦 加拿大 12, server: 134.195.196.81, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇺🇸 美国 2, server: ahdaeph8.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}}
-  - {name: 🇨🇦 加拿大 13, server: 134.195.196.81, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇨🇦 加拿大 14, server: 134.195.196.81, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇨🇦 加拿大 15, server: 134.195.196.81, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇫🇷 法国 2, server: 51.255.66.185, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇬🇧 英国 4, server: 172.99.190.92, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 美国 3, server: 38.91.100.102, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇨🇦 加拿大 16, server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇬🇧 英国, server: 172.99.190.92, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇦🇺 澳大利亚, server: 172.105.187.158, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇬🇧 英国 2, server: 145.239.7.164, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇯🇵 日本, server: gongyijp2.yigeweizhuang.com, port: 2096, type: vmess, uuid: a94446e3-be9c-4240-9bdf-9b88155a7eb4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gongyijp2.yigeweizhuang.com}}}
+  - {name: 🇲🇾 马来西亚, server: mlxy.jjxcloud.xyz, port: 3495, type: vmess, uuid: d9a63d08-f47d-37d8-8fe6-756d4e412617, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: mlxy.jjxcloud.xyz}}}
+  - {name: 🇨🇦 加拿大, server: 134.195.196.68, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇺🇸 美国, server: gongyius1.yigeweizhuang.com, port: 2096, type: vmess, uuid: a94446e3-be9c-4240-9bdf-9b88155a7eb4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gongyius1.yigeweizhuang.com}}}
+  - {name: 🇨🇦 加拿大 2, server: 134.195.196.81, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇨🇦 加拿大 3, server: 134.195.196.81, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇨🇦 加拿大 4, server: 134.195.196.68, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇨🇦 加拿大 5, server: 134.195.196.81, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇨🇦 加拿大 6, server: 134.195.196.81, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇺🇸 美国 2, server: 169.197.142.99, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇯🇵 日本 2, server: icook.hk, port: 443, type: vmess, uuid: 9a85a293-3eb7-4189-e17d-bfa46f9ad0ce, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /freebaipiao, headers: {Host: xmlinodejp2.aifx.eu.org}}}
+  - {name: 🇺🇸 美国 3, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇦🇺 澳大利亚 2, server: 172.105.187.158, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇦 加拿大 7, server: 134.195.196.81, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇨🇦 加拿大 8, server: 134.195.196.81, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇦🇺 澳大利亚 3, server: 172.105.187.158, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 美国 4, server: usa.oracleusa.ml, port: 2053, type: vmess, uuid: 928d2df4-6c5e-4274-9af4-b2769ea9dd96, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: usa.oracleusa.ml}}}
+  - {name: 🇸🇬 新加坡, server: gongyisg1.yigeweizhuang.com, port: 2096, type: vmess, uuid: a94446e3-be9c-4240-9bdf-9b88155a7eb4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gongyisg1.yigeweizhuang.com}}}
+  - {name: 🇺🇸 美国 5, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: iesei1ei.com}}}
+  - {name: 🇨🇦 加拿大 9, server: 134.195.196.81, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇨🇦 加拿大 10, server: 134.195.196.81, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 加拿大 11, server: 134.195.196.187, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 美国 6, server: iesei1ei.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: iesei1ei.com}}}
+  - {name: 🇨🇦 加拿大 12, server: 134.195.196.68, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇺🇸 美国 7, server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 美国 8, server: 169.197.142.99, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇬🇧 英国 3, server: 172.99.190.92, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇨🇦 加拿大 13, server: 134.195.196.81, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇨🇦 加拿大 14, server: 134.195.196.81, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇺🇸 美国 9, server: 38.143.66.71, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇨🇦 加拿大 15, server: 134.195.196.3, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇨🇦 加拿大 16, server: 134.195.196.81, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: 🇨🇦 加拿大 17, server: 134.195.196.81, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 🇨🇦 加拿大 18, server: 134.195.196.81, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇨🇦 加拿大 19, server: 134.195.196.81, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇨🇭 瑞士, server: sw2.oracleusa.ml, port: 980, type: vmess, uuid: d9d24ce4-7af4-47b6-84a0-6dd13c8a5c8d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sw2.oracleusa.ml}}}
-  - {name: 🇨🇦 加拿大 20, server: 134.195.196.81, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇦 加拿大 21, server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 美国 4, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}}
-  - {name: 🇦🇪 阿联酋, server: bi.oracleusa.ml, port: 2053, type: vmess, uuid: d9d24ce4-7af4-47b6-84a0-6dd13c8a5c8d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: bi.oracleusa.ml}}}
-  - {name: 🇨🇦 加拿大 22, server: 134.195.196.81, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇺🇸 美国 5, server: 38.143.66.71, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇨🇦 加拿大 23, server: 134.195.196.81, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇨🇦 加拿大 24, server: 134.195.196.81, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 美国 6, server: usaadm.oracleusa.ml, port: 2053, type: vmess, uuid: d9d24ce4-7af4-47b6-84a0-6dd13c8a5c8d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: usaadm.oracleusa.ml}}}
-  - {name: 🇺🇸 美国 7, server: 38.91.100.102, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇭🇰 香港, server: 0306hk01.fans8.xyz, port: 80, type: vmess, uuid: 3b8f6b51-1924-37d2-a376-8e0361d5e0b3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0306hk01.fans8.xyz}}}
-  - {name: 🇭🇰 香港 2, server: 0306hk05.fans8.xyz, port: 80, type: vmess, uuid: 3b8f6b51-1924-37d2-a376-8e0361d5e0b3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0306hk05.fans8.xyz}}}
-  - {name: 🇯🇵 日本 2, server: 0306jp08.fans8.xyz, port: 80, type: vmess, uuid: 3b8f6b51-1924-37d2-a376-8e0361d5e0b3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0306jp08.fans8.xyz}}}
+  - {name: 🇺🇸 美国 10, server: 169.197.142.99, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇺🇸 美国 11, server: 142.202.48.81, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇬🇧 英国 4, server: 172.99.190.92, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇨🇦 加拿大 18, server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇦🇺 澳大利亚 4, server: 172.105.187.158, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇦 加拿大 19, server: 134.195.196.3, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇭🇰 香港, server: 165.154.224.8, port: 80, type: vmess, uuid: 3b8f6b51-1924-37d2-a376-8e0361d5e0b3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray}}
+  - {name: 🇭🇰 香港 2, server: 103.164.81.13, port: 80, type: vmess, uuid: 3b8f6b51-1924-37d2-a376-8e0361d5e0b3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray}}
+  - {name: 🇭🇰 香港 3, server: 103.164.81.28, port: 80, type: vmess, uuid: 3b8f6b51-1924-37d2-a376-8e0361d5e0b3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray}}
+  - {name: 🇰🇷 韩国, server: 165.154.230.2, port: 80, type: vmess, uuid: 3b8f6b51-1924-37d2-a376-8e0361d5e0b3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray}}
+  - {name: 🇯🇵 日本 3, server: 165.154.231.188, port: 80, type: vmess, uuid: 3b8f6b51-1924-37d2-a376-8e0361d5e0b3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 日本
-      - 🇨🇦 加拿大
-      - 🇨🇦 加拿大 2
-      - 🇫🇷 法国
-      - 🇨🇦 加拿大 3
       - 🇬🇧 英国
+      - 🇦🇺 澳大利亚
+      - 🇬🇧 英国 2
+      - 🇯🇵 日本
+      - 🇲🇾 马来西亚
+      - 🇨🇦 加拿大
+      - 🇺🇸 美国
+      - 🇨🇦 加拿大 2
+      - 🇨🇦 加拿大 3
       - 🇨🇦 加拿大 4
       - 🇨🇦 加拿大 5
-      - 🇬🇧 英国 2
-      - 🇬🇧 英国 3
-      - 🇺🇸 美国
       - 🇨🇦 加拿大 6
+      - 🇺🇸 美国 2
+      - 🇯🇵 日本 2
+      - 🇺🇸 美国 3
+      - 🇦🇺 澳大利亚 2
       - 🇨🇦 加拿大 7
-      - 🇷🇺 俄罗斯联邦
       - 🇨🇦 加拿大 8
+      - 🇦🇺 澳大利亚 3
+      - 🇺🇸 美国 4
+      - 🇸🇬 新加坡
+      - 🇺🇸 美国 5
       - 🇨🇦 加拿大 9
       - 🇨🇦 加拿大 10
-      - 未命名
       - 🇨🇦 加拿大 11
+      - 🇺🇸 美国 6
       - 🇨🇦 加拿大 12
-      - 🇺🇸 美国 2
+      - 🇺🇸 美国 7
+      - 🇺🇸 美国 8
+      - 🇬🇧 英国 3
       - 🇨🇦 加拿大 13
       - 🇨🇦 加拿大 14
+      - 🇺🇸 美国 9
       - 🇨🇦 加拿大 15
-      - 🇫🇷 法国 2
-      - 🇬🇧 英国 4
-      - 🇺🇸 美国 3
       - 🇨🇦 加拿大 16
       - 🇨🇦 加拿大 17
+      - 🇺🇸 美国 10
+      - 🇺🇸 美国 11
+      - 🇬🇧 英国 4
       - 🇨🇦 加拿大 18
+      - 🇦🇺 澳大利亚 4
       - 🇨🇦 加拿大 19
-      - 🇨🇭 瑞士
-      - 🇨🇦 加拿大 20
-      - 🇨🇦 加拿大 21
-      - 🇺🇸 美国 4
-      - 🇦🇪 阿联酋
-      - 🇨🇦 加拿大 22
-      - 🇺🇸 美国 5
-      - 🇨🇦 加拿大 23
-      - 🇨🇦 加拿大 24
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
       - 🇭🇰 香港
       - 🇭🇰 香港 2
-      - 🇯🇵 日本 2
+      - 🇭🇰 香港 3
+      - 🇰🇷 韩国
+      - 🇯🇵 日本 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇯🇵 日本
-      - 🇨🇦 加拿大
-      - 🇨🇦 加拿大 2
-      - 🇫🇷 法国
-      - 🇨🇦 加拿大 3
       - 🇬🇧 英国
+      - 🇦🇺 澳大利亚
+      - 🇬🇧 英国 2
+      - 🇯🇵 日本
+      - 🇲🇾 马来西亚
+      - 🇨🇦 加拿大
+      - 🇺🇸 美国
+      - 🇨🇦 加拿大 2
+      - 🇨🇦 加拿大 3
       - 🇨🇦 加拿大 4
       - 🇨🇦 加拿大 5
-      - 🇬🇧 英国 2
-      - 🇬🇧 英国 3
-      - 🇺🇸 美国
       - 🇨🇦 加拿大 6
+      - 🇺🇸 美国 2
+      - 🇯🇵 日本 2
+      - 🇺🇸 美国 3
+      - 🇦🇺 澳大利亚 2
       - 🇨🇦 加拿大 7
-      - 🇷🇺 俄罗斯联邦
       - 🇨🇦 加拿大 8
+      - 🇦🇺 澳大利亚 3
+      - 🇺🇸 美国 4
+      - 🇸🇬 新加坡
+      - 🇺🇸 美国 5
       - 🇨🇦 加拿大 9
       - 🇨🇦 加拿大 10
-      - 未命名
       - 🇨🇦 加拿大 11
+      - 🇺🇸 美国 6
       - 🇨🇦 加拿大 12
-      - 🇺🇸 美国 2
+      - 🇺🇸 美国 7
+      - 🇺🇸 美国 8
+      - 🇬🇧 英国 3
       - 🇨🇦 加拿大 13
       - 🇨🇦 加拿大 14
+      - 🇺🇸 美国 9
       - 🇨🇦 加拿大 15
-      - 🇫🇷 法国 2
-      - 🇬🇧 英国 4
-      - 🇺🇸 美国 3
       - 🇨🇦 加拿大 16
       - 🇨🇦 加拿大 17
+      - 🇺🇸 美国 10
+      - 🇺🇸 美国 11
+      - 🇬🇧 英国 4
       - 🇨🇦 加拿大 18
+      - 🇦🇺 澳大利亚 4
       - 🇨🇦 加拿大 19
-      - 🇨🇭 瑞士
-      - 🇨🇦 加拿大 20
-      - 🇨🇦 加拿大 21
-      - 🇺🇸 美国 4
-      - 🇦🇪 阿联酋
-      - 🇨🇦 加拿大 22
-      - 🇺🇸 美国 5
-      - 🇨🇦 加拿大 23
-      - 🇨🇦 加拿大 24
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
       - 🇭🇰 香港
       - 🇭🇰 香港 2
-      - 🇯🇵 日本 2
+      - 🇭🇰 香港 3
+      - 🇰🇷 韩国
+      - 🇯🇵 日本 3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 日本
-      - 🇨🇦 加拿大
-      - 🇨🇦 加拿大 2
-      - 🇫🇷 法国
-      - 🇨🇦 加拿大 3
       - 🇬🇧 英国
+      - 🇦🇺 澳大利亚
+      - 🇬🇧 英国 2
+      - 🇯🇵 日本
+      - 🇲🇾 马来西亚
+      - 🇨🇦 加拿大
+      - 🇺🇸 美国
+      - 🇨🇦 加拿大 2
+      - 🇨🇦 加拿大 3
       - 🇨🇦 加拿大 4
       - 🇨🇦 加拿大 5
-      - 🇬🇧 英国 2
-      - 🇬🇧 英国 3
-      - 🇺🇸 美国
       - 🇨🇦 加拿大 6
+      - 🇺🇸 美国 2
+      - 🇯🇵 日本 2
+      - 🇺🇸 美国 3
+      - 🇦🇺 澳大利亚 2
       - 🇨🇦 加拿大 7
-      - 🇷🇺 俄罗斯联邦
       - 🇨🇦 加拿大 8
+      - 🇦🇺 澳大利亚 3
+      - 🇺🇸 美国 4
+      - 🇸🇬 新加坡
+      - 🇺🇸 美国 5
       - 🇨🇦 加拿大 9
       - 🇨🇦 加拿大 10
-      - 未命名
       - 🇨🇦 加拿大 11
+      - 🇺🇸 美国 6
       - 🇨🇦 加拿大 12
-      - 🇺🇸 美国 2
+      - 🇺🇸 美国 7
+      - 🇺🇸 美国 8
+      - 🇬🇧 英国 3
       - 🇨🇦 加拿大 13
       - 🇨🇦 加拿大 14
+      - 🇺🇸 美国 9
       - 🇨🇦 加拿大 15
-      - 🇫🇷 法国 2
-      - 🇬🇧 英国 4
-      - 🇺🇸 美国 3
       - 🇨🇦 加拿大 16
       - 🇨🇦 加拿大 17
+      - 🇺🇸 美国 10
+      - 🇺🇸 美国 11
+      - 🇬🇧 英国 4
       - 🇨🇦 加拿大 18
+      - 🇦🇺 澳大利亚 4
       - 🇨🇦 加拿大 19
-      - 🇨🇭 瑞士
-      - 🇨🇦 加拿大 20
-      - 🇨🇦 加拿大 21
-      - 🇺🇸 美国 4
-      - 🇦🇪 阿联酋
-      - 🇨🇦 加拿大 22
-      - 🇺🇸 美国 5
-      - 🇨🇦 加拿大 23
-      - 🇨🇦 加拿大 24
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
       - 🇭🇰 香港
       - 🇭🇰 香港 2
-      - 🇯🇵 日本 2
+      - 🇭🇰 香港 3
+      - 🇰🇷 韩国
+      - 🇯🇵 日本 3
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🇭🇰 香港
       - 🇭🇰 香港 2
+      - 🇭🇰 香港 3
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇯🇵 日本
-      - 🇨🇦 加拿大
-      - 🇨🇦 加拿大 2
-      - 🇫🇷 法国
-      - 🇨🇦 加拿大 3
       - 🇬🇧 英国
+      - 🇦🇺 澳大利亚
+      - 🇬🇧 英国 2
+      - 🇯🇵 日本
+      - 🇲🇾 马来西亚
+      - 🇨🇦 加拿大
+      - 🇺🇸 美国
+      - 🇨🇦 加拿大 2
+      - 🇨🇦 加拿大 3
       - 🇨🇦 加拿大 4
       - 🇨🇦 加拿大 5
-      - 🇬🇧 英国 2
-      - 🇬🇧 英国 3
-      - 🇺🇸 美国
       - 🇨🇦 加拿大 6
+      - 🇺🇸 美国 2
+      - 🇯🇵 日本 2
+      - 🇺🇸 美国 3
+      - 🇦🇺 澳大利亚 2
       - 🇨🇦 加拿大 7
-      - 🇷🇺 俄罗斯联邦
       - 🇨🇦 加拿大 8
+      - 🇦🇺 澳大利亚 3
+      - 🇺🇸 美国 4
+      - 🇸🇬 新加坡
+      - 🇺🇸 美国 5
       - 🇨🇦 加拿大 9
       - 🇨🇦 加拿大 10
-      - 未命名
       - 🇨🇦 加拿大 11
+      - 🇺🇸 美国 6
       - 🇨🇦 加拿大 12
-      - 🇺🇸 美国 2
+      - 🇺🇸 美国 7
+      - 🇺🇸 美国 8
+      - 🇬🇧 英国 3
       - 🇨🇦 加拿大 13
       - 🇨🇦 加拿大 14
+      - 🇺🇸 美国 9
       - 🇨🇦 加拿大 15
-      - 🇫🇷 法国 2
-      - 🇬🇧 英国 4
-      - 🇺🇸 美国 3
       - 🇨🇦 加拿大 16
       - 🇨🇦 加拿大 17
+      - 🇺🇸 美国 10
+      - 🇺🇸 美国 11
+      - 🇬🇧 英国 4
       - 🇨🇦 加拿大 18
+      - 🇦🇺 澳大利亚 4
       - 🇨🇦 加拿大 19
-      - 🇨🇭 瑞士
-      - 🇨🇦 加拿大 20
-      - 🇨🇦 加拿大 21
-      - 🇺🇸 美国 4
-      - 🇦🇪 阿联酋
-      - 🇨🇦 加拿大 22
-      - 🇺🇸 美国 5
-      - 🇨🇦 加拿大 23
-      - 🇨🇦 加拿大 24
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
       - 🇭🇰 香港
       - 🇭🇰 香港 2
-      - 🇯🇵 日本 2
+      - 🇭🇰 香港 3
+      - 🇰🇷 韩国
+      - 🇯🇵 日本 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇯🇵 日本
-      - 🇨🇦 加拿大
-      - 🇨🇦 加拿大 2
-      - 🇫🇷 法国
-      - 🇨🇦 加拿大 3
       - 🇬🇧 英国
+      - 🇦🇺 澳大利亚
+      - 🇬🇧 英国 2
+      - 🇯🇵 日本
+      - 🇲🇾 马来西亚
+      - 🇨🇦 加拿大
+      - 🇺🇸 美国
+      - 🇨🇦 加拿大 2
+      - 🇨🇦 加拿大 3
       - 🇨🇦 加拿大 4
       - 🇨🇦 加拿大 5
-      - 🇬🇧 英国 2
-      - 🇬🇧 英国 3
-      - 🇺🇸 美国
       - 🇨🇦 加拿大 6
+      - 🇺🇸 美国 2
+      - 🇯🇵 日本 2
+      - 🇺🇸 美国 3
+      - 🇦🇺 澳大利亚 2
       - 🇨🇦 加拿大 7
-      - 🇷🇺 俄罗斯联邦
       - 🇨🇦 加拿大 8
+      - 🇦🇺 澳大利亚 3
+      - 🇺🇸 美国 4
+      - 🇸🇬 新加坡
+      - 🇺🇸 美国 5
       - 🇨🇦 加拿大 9
       - 🇨🇦 加拿大 10
-      - 未命名
       - 🇨🇦 加拿大 11
+      - 🇺🇸 美国 6
       - 🇨🇦 加拿大 12
-      - 🇺🇸 美国 2
+      - 🇺🇸 美国 7
+      - 🇺🇸 美国 8
+      - 🇬🇧 英国 3
       - 🇨🇦 加拿大 13
       - 🇨🇦 加拿大 14
+      - 🇺🇸 美国 9
       - 🇨🇦 加拿大 15
-      - 🇫🇷 法国 2
-      - 🇬🇧 英国 4
-      - 🇺🇸 美国 3
       - 🇨🇦 加拿大 16
       - 🇨🇦 加拿大 17
+      - 🇺🇸 美国 10
+      - 🇺🇸 美国 11
+      - 🇬🇧 英国 4
       - 🇨🇦 加拿大 18
+      - 🇦🇺 澳大利亚 4
       - 🇨🇦 加拿大 19
-      - 🇨🇭 瑞士
-      - 🇨🇦 加拿大 20
-      - 🇨🇦 加拿大 21
-      - 🇺🇸 美国 4
-      - 🇦🇪 阿联酋
-      - 🇨🇦 加拿大 22
-      - 🇺🇸 美国 5
-      - 🇨🇦 加拿大 23
-      - 🇨🇦 加拿大 24
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
       - 🇭🇰 香港
       - 🇭🇰 香港 2
-      - 🇯🇵 日本 2
+      - 🇭🇰 香港 3
+      - 🇰🇷 韩国
+      - 🇯🇵 日本 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 日本
-      - 🇨🇦 加拿大
-      - 🇨🇦 加拿大 2
-      - 🇫🇷 法国
-      - 🇨🇦 加拿大 3
       - 🇬🇧 英国
+      - 🇦🇺 澳大利亚
+      - 🇬🇧 英国 2
+      - 🇯🇵 日本
+      - 🇲🇾 马来西亚
+      - 🇨🇦 加拿大
+      - 🇺🇸 美国
+      - 🇨🇦 加拿大 2
+      - 🇨🇦 加拿大 3
       - 🇨🇦 加拿大 4
       - 🇨🇦 加拿大 5
-      - 🇬🇧 英国 2
-      - 🇬🇧 英国 3
-      - 🇺🇸 美国
       - 🇨🇦 加拿大 6
+      - 🇺🇸 美国 2
+      - 🇯🇵 日本 2
+      - 🇺🇸 美国 3
+      - 🇦🇺 澳大利亚 2
       - 🇨🇦 加拿大 7
-      - 🇷🇺 俄罗斯联邦
       - 🇨🇦 加拿大 8
+      - 🇦🇺 澳大利亚 3
+      - 🇺🇸 美国 4
+      - 🇸🇬 新加坡
+      - 🇺🇸 美国 5
       - 🇨🇦 加拿大 9
       - 🇨🇦 加拿大 10
-      - 未命名
       - 🇨🇦 加拿大 11
+      - 🇺🇸 美国 6
       - 🇨🇦 加拿大 12
-      - 🇺🇸 美国 2
+      - 🇺🇸 美国 7
+      - 🇺🇸 美国 8
+      - 🇬🇧 英国 3
       - 🇨🇦 加拿大 13
       - 🇨🇦 加拿大 14
+      - 🇺🇸 美国 9
       - 🇨🇦 加拿大 15
-      - 🇫🇷 法国 2
-      - 🇬🇧 英国 4
-      - 🇺🇸 美国 3
       - 🇨🇦 加拿大 16
       - 🇨🇦 加拿大 17
+      - 🇺🇸 美国 10
+      - 🇺🇸 美国 11
+      - 🇬🇧 英国 4
       - 🇨🇦 加拿大 18
+      - 🇦🇺 澳大利亚 4
       - 🇨🇦 加拿大 19
-      - 🇨🇭 瑞士
-      - 🇨🇦 加拿大 20
-      - 🇨🇦 加拿大 21
-      - 🇺🇸 美国 4
-      - 🇦🇪 阿联酋
-      - 🇨🇦 加拿大 22
-      - 🇺🇸 美国 5
-      - 🇨🇦 加拿大 23
-      - 🇨🇦 加拿大 24
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
       - 🇭🇰 香港
       - 🇭🇰 香港 2
-      - 🇯🇵 日本 2
+      - 🇭🇰 香港 3
+      - 🇰🇷 韩国
+      - 🇯🇵 日本 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -375,51 +390,53 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 日本
-      - 🇨🇦 加拿大
-      - 🇨🇦 加拿大 2
-      - 🇫🇷 法国
-      - 🇨🇦 加拿大 3
       - 🇬🇧 英国
+      - 🇦🇺 澳大利亚
+      - 🇬🇧 英国 2
+      - 🇯🇵 日本
+      - 🇲🇾 马来西亚
+      - 🇨🇦 加拿大
+      - 🇺🇸 美国
+      - 🇨🇦 加拿大 2
+      - 🇨🇦 加拿大 3
       - 🇨🇦 加拿大 4
       - 🇨🇦 加拿大 5
-      - 🇬🇧 英国 2
-      - 🇬🇧 英国 3
-      - 🇺🇸 美国
       - 🇨🇦 加拿大 6
+      - 🇺🇸 美国 2
+      - 🇯🇵 日本 2
+      - 🇺🇸 美国 3
+      - 🇦🇺 澳大利亚 2
       - 🇨🇦 加拿大 7
-      - 🇷🇺 俄罗斯联邦
       - 🇨🇦 加拿大 8
+      - 🇦🇺 澳大利亚 3
+      - 🇺🇸 美国 4
+      - 🇸🇬 新加坡
+      - 🇺🇸 美国 5
       - 🇨🇦 加拿大 9
       - 🇨🇦 加拿大 10
-      - 未命名
       - 🇨🇦 加拿大 11
+      - 🇺🇸 美国 6
       - 🇨🇦 加拿大 12
-      - 🇺🇸 美国 2
+      - 🇺🇸 美国 7
+      - 🇺🇸 美国 8
+      - 🇬🇧 英国 3
       - 🇨🇦 加拿大 13
       - 🇨🇦 加拿大 14
+      - 🇺🇸 美国 9
       - 🇨🇦 加拿大 15
-      - 🇫🇷 法国 2
-      - 🇬🇧 英国 4
-      - 🇺🇸 美国 3
       - 🇨🇦 加拿大 16
       - 🇨🇦 加拿大 17
+      - 🇺🇸 美国 10
+      - 🇺🇸 美国 11
+      - 🇬🇧 英国 4
       - 🇨🇦 加拿大 18
+      - 🇦🇺 澳大利亚 4
       - 🇨🇦 加拿大 19
-      - 🇨🇭 瑞士
-      - 🇨🇦 加拿大 20
-      - 🇨🇦 加拿大 21
-      - 🇺🇸 美国 4
-      - 🇦🇪 阿联酋
-      - 🇨🇦 加拿大 22
-      - 🇺🇸 美国 5
-      - 🇨🇦 加拿大 23
-      - 🇨🇦 加拿大 24
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
       - 🇭🇰 香港
       - 🇭🇰 香港 2
-      - 🇯🇵 日本 2
+      - 🇭🇰 香港 3
+      - 🇰🇷 韩国
+      - 🇯🇵 日本 3
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
