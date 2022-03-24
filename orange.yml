@@ -5,31 +5,36 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 美国, server: 169.197.142.4, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇨🇦 加拿大, server: 134.195.196.3, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇨🇦 加拿大 2, server: 134.195.196.81, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 🇫🇷 法国, server: 62.210.140.163, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇺🇸 美国 2, server: 169.197.142.4, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇨🇦 加拿大 3, server: 134.195.196.68, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇺🇸 美国 3, server: 169.197.142.4, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇨🇦 加拿大 4, server: 134.195.196.187, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇺🇸 美国 4, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇨🇦 加拿大 5, server: 134.195.196.3, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸 美国 5, server: 169.197.142.4, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇺🇸 美国 6, server: 169.197.142.4, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇨🇦 加拿大 6, server: 134.195.196.3, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇨🇦 加拿大 7, server: 134.195.196.68, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇺🇸 美国 7, server: 169.197.142.4, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇦 加拿大 8, server: 134.195.196.81, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇦 加拿大 9, server: 134.195.196.68, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 美国 8, server: 169.197.142.4, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 加拿大 10, server: 134.195.196.3, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇦 加拿大 11, server: 134.195.196.187, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇬🇧 英国, server: 172.99.190.92, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 美国 9, server: 169.197.142.4, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇭🇰 香港, server: hantesi.xyz, port: 50129, type: vmess, uuid: dd64d4c0-71fa-455a-ed52-ed6d947aa0d8, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /hello, headers: {Host: hantesi.xyz}}}
-  - {name: 🇺🇸 美国 10, server: 169.197.142.4, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 美国 11, server: 169.197.142.4, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国, server: 38.75.137.66, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇵🇱 波兰, server: 194.15.196.66, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 美国 2, server: 142.202.48.7, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇬🇧 英国, server: 172.99.190.92, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国 3, server: 142.202.48.7, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇺🇸 美国 4, server: 142.202.48.7, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇰🇷 韩国, server: vs.mumi.bid, port: 10124, type: vmess, uuid: 0748a567-ca97-4fc8-9d9c-9ca18f2b9ff4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: vs.mumi.bid}}}
+  - {name: 🇺🇸 美国 5, server: 38.75.137.66, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 美国 6, server: 142.202.48.7, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇺🇸 美国 7, server: 38.75.137.187, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 加拿大, server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇵🇱 波兰 2, server: 194.15.196.66, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇺🇸 美国 8, server: 142.202.48.7, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国 9, server: 142.202.48.7, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 美国 10, server: 142.202.48.7, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 美国 11, server: 38.75.137.66, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 美国 12, server: 142.202.48.7, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 疾速PRO, server: 0314tw02.fans8.xyz, port: 443, type: vmess, uuid: 2ad126ae-212f-3546-9129-1b5e509c9919, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 0314tw02.fans8.xyz}}}
+  - {name: 疾速PRO 2, server: 0319hzm01.fans8.xyz, port: 443, type: vmess, uuid: 2ad126ae-212f-3546-9129-1b5e509c9919, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /nmsl, headers: {Host: 0319hzm01.fans8.xyz}}}
+  - {name: 疾速PRO 3, server: 0320ru1702.fans8.xyz, port: 80, type: vmess, uuid: 2ad126ae-212f-3546-9129-1b5e509c9919, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0320ru1702.fans8.xyz}}}
+  - {name: 疾速PRO 4, server: 0320hk1646.fans8.xyz, port: 443, type: vmess, uuid: 2ad126ae-212f-3546-9129-1b5e509c9919, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /nl, headers: {Host: 0320hk1646.fans8.xyz}}}
+  - {name: 疾速PRO 5, server: 0320hk567.fans8.xyz, port: 443, type: vmess, uuid: 2ad126ae-212f-3546-9129-1b5e509c9919, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 0320hk567.fans8.xyz}}}
+  - {name: 疾速PRO 6, server: 0320hkhh.fans8.xyz, port: 443, type: vmess, uuid: 2ad126ae-212f-3546-9129-1b5e509c9919, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 0320hkhh.fans8.xyz}}}
+  - {name: 疾速PRO 7, server: 0320hk857.fans8.xyz, port: 443, type: vmess, uuid: 2ad126ae-212f-3546-9129-1b5e509c9919, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 0320hk857.fans8.xyz}}}
+  - {name: 疾速PRO 8, server: 0316ro.fans8.xyz, port: 443, type: vmess, uuid: 2ad126ae-212f-3546-9129-1b5e509c9919, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /nl, headers: {Host: 0316ro.fans8.xyz}}}
+  - {name: 疾速PRO 9, server: 0319ru99.fans8.xyz, port: 443, type: vmess, uuid: 2ad126ae-212f-3546-9129-1b5e509c9919, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /nmsl, headers: {Host: 0319ru99.fans8.xyz}}}
+  - {name: 疾速PRO 10, server: 0320tw1731.fans8.xyz, port: 443, type: vmess, uuid: 2ad126ae-212f-3546-9129-1b5e509c9919, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /nl, headers: {Host: 0320tw1731.fans8.xyz}}}
+  - {name: 疾速PRO 11, server: 0320jp.fans8.xyz, port: 443, type: vmess, uuid: 2ad126ae-212f-3546-9129-1b5e509c9919, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 0320jp.fans8.xyz}}}
+  - {name: 疾速PRO 12, server: 0319tw123.fans8.xyz, port: 443, type: vmess, uuid: 2ad126ae-212f-3546-9129-1b5e509c9919, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /nmsl, headers: {Host: 0319tw123.fans8.xyz}}}
+  - {name: 疾速PRO 13, server: 0320kr99.fans8.xyz, port: 443, type: vmess, uuid: 2ad126ae-212f-3546-9129-1b5e509c9919, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /nmsl, headers: {Host: 0320kr99.fans8.xyz}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -37,60 +42,70 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇺🇸 美国
-      - 🇨🇦 加拿大
-      - 🇨🇦 加拿大 2
-      - 🇫🇷 法国
+      - 🇵🇱 波兰
       - 🇺🇸 美国 2
-      - 🇨🇦 加拿大 3
+      - 🇬🇧 英国
       - 🇺🇸 美国 3
-      - 🇨🇦 加拿大 4
       - 🇺🇸 美国 4
-      - 🇨🇦 加拿大 5
+      - 🇰🇷 韩国
       - 🇺🇸 美国 5
       - 🇺🇸 美国 6
-      - 🇨🇦 加拿大 6
-      - 🇨🇦 加拿大 7
       - 🇺🇸 美国 7
-      - 🇨🇦 加拿大 8
-      - 🇨🇦 加拿大 9
+      - 🇨🇦 加拿大
+      - 🇵🇱 波兰 2
       - 🇺🇸 美国 8
-      - 🇨🇦 加拿大 10
-      - 🇨🇦 加拿大 11
-      - 🇬🇧 英国
       - 🇺🇸 美国 9
-      - 🇭🇰 香港
       - 🇺🇸 美国 10
       - 🇺🇸 美国 11
+      - 🇺🇸 美国 12
+      - 疾速PRO
+      - 疾速PRO 2
+      - 疾速PRO 3
+      - 疾速PRO 4
+      - 疾速PRO 5
+      - 疾速PRO 6
+      - 疾速PRO 7
+      - 疾速PRO 8
+      - 疾速PRO 9
+      - 疾速PRO 10
+      - 疾速PRO 11
+      - 疾速PRO 12
+      - 疾速PRO 13
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - 🇺🇸 美国
-      - 🇨🇦 加拿大
-      - 🇨🇦 加拿大 2
-      - 🇫🇷 法国
+      - 🇵🇱 波兰
       - 🇺🇸 美国 2
-      - 🇨🇦 加拿大 3
+      - 🇬🇧 英国
       - 🇺🇸 美国 3
-      - 🇨🇦 加拿大 4
       - 🇺🇸 美国 4
-      - 🇨🇦 加拿大 5
+      - 🇰🇷 韩国
       - 🇺🇸 美国 5
       - 🇺🇸 美国 6
-      - 🇨🇦 加拿大 6
-      - 🇨🇦 加拿大 7
       - 🇺🇸 美国 7
-      - 🇨🇦 加拿大 8
-      - 🇨🇦 加拿大 9
+      - 🇨🇦 加拿大
+      - 🇵🇱 波兰 2
       - 🇺🇸 美国 8
-      - 🇨🇦 加拿大 10
-      - 🇨🇦 加拿大 11
-      - 🇬🇧 英国
       - 🇺🇸 美国 9
-      - 🇭🇰 香港
       - 🇺🇸 美国 10
       - 🇺🇸 美国 11
+      - 🇺🇸 美国 12
+      - 疾速PRO
+      - 疾速PRO 2
+      - 疾速PRO 3
+      - 疾速PRO 4
+      - 疾速PRO 5
+      - 疾速PRO 6
+      - 疾速PRO 7
+      - 疾速PRO 8
+      - 疾速PRO 9
+      - 疾速PRO 10
+      - 疾速PRO 11
+      - 疾速PRO 12
+      - 疾速PRO 13
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -98,35 +113,39 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇺🇸 美国
-      - 🇨🇦 加拿大
-      - 🇨🇦 加拿大 2
-      - 🇫🇷 法国
+      - 🇵🇱 波兰
       - 🇺🇸 美国 2
-      - 🇨🇦 加拿大 3
+      - 🇬🇧 英国
       - 🇺🇸 美国 3
-      - 🇨🇦 加拿大 4
       - 🇺🇸 美国 4
-      - 🇨🇦 加拿大 5
+      - 🇰🇷 韩国
       - 🇺🇸 美国 5
       - 🇺🇸 美国 6
-      - 🇨🇦 加拿大 6
-      - 🇨🇦 加拿大 7
       - 🇺🇸 美国 7
-      - 🇨🇦 加拿大 8
-      - 🇨🇦 加拿大 9
+      - 🇨🇦 加拿大
+      - 🇵🇱 波兰 2
       - 🇺🇸 美国 8
-      - 🇨🇦 加拿大 10
-      - 🇨🇦 加拿大 11
-      - 🇬🇧 英国
       - 🇺🇸 美国 9
-      - 🇭🇰 香港
       - 🇺🇸 美国 10
       - 🇺🇸 美国 11
+      - 🇺🇸 美国 12
+      - 疾速PRO
+      - 疾速PRO 2
+      - 疾速PRO 3
+      - 疾速PRO 4
+      - 疾速PRO 5
+      - 疾速PRO 6
+      - 疾速PRO 7
+      - 疾速PRO 8
+      - 疾速PRO 9
+      - 疾速PRO 10
+      - 疾速PRO 11
+      - 疾速PRO 12
+      - 疾速PRO 13
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -134,60 +153,70 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - 🇺🇸 美国
-      - 🇨🇦 加拿大
-      - 🇨🇦 加拿大 2
-      - 🇫🇷 法国
+      - 🇵🇱 波兰
       - 🇺🇸 美国 2
-      - 🇨🇦 加拿大 3
+      - 🇬🇧 英国
       - 🇺🇸 美国 3
-      - 🇨🇦 加拿大 4
       - 🇺🇸 美国 4
-      - 🇨🇦 加拿大 5
+      - 🇰🇷 韩国
       - 🇺🇸 美国 5
       - 🇺🇸 美国 6
-      - 🇨🇦 加拿大 6
-      - 🇨🇦 加拿大 7
       - 🇺🇸 美国 7
-      - 🇨🇦 加拿大 8
-      - 🇨🇦 加拿大 9
+      - 🇨🇦 加拿大
+      - 🇵🇱 波兰 2
       - 🇺🇸 美国 8
-      - 🇨🇦 加拿大 10
-      - 🇨🇦 加拿大 11
-      - 🇬🇧 英国
       - 🇺🇸 美国 9
-      - 🇭🇰 香港
       - 🇺🇸 美国 10
       - 🇺🇸 美国 11
+      - 🇺🇸 美国 12
+      - 疾速PRO
+      - 疾速PRO 2
+      - 疾速PRO 3
+      - 疾速PRO 4
+      - 疾速PRO 5
+      - 疾速PRO 6
+      - 疾速PRO 7
+      - 疾速PRO 8
+      - 疾速PRO 9
+      - 疾速PRO 10
+      - 疾速PRO 11
+      - 疾速PRO 12
+      - 疾速PRO 13
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - 🇺🇸 美国
-      - 🇨🇦 加拿大
-      - 🇨🇦 加拿大 2
-      - 🇫🇷 法国
+      - 🇵🇱 波兰
       - 🇺🇸 美国 2
-      - 🇨🇦 加拿大 3
+      - 🇬🇧 英国
       - 🇺🇸 美国 3
-      - 🇨🇦 加拿大 4
       - 🇺🇸 美国 4
-      - 🇨🇦 加拿大 5
+      - 🇰🇷 韩国
       - 🇺🇸 美国 5
       - 🇺🇸 美国 6
-      - 🇨🇦 加拿大 6
-      - 🇨🇦 加拿大 7
       - 🇺🇸 美国 7
-      - 🇨🇦 加拿大 8
-      - 🇨🇦 加拿大 9
+      - 🇨🇦 加拿大
+      - 🇵🇱 波兰 2
       - 🇺🇸 美国 8
-      - 🇨🇦 加拿大 10
-      - 🇨🇦 加拿大 11
-      - 🇬🇧 英国
       - 🇺🇸 美国 9
-      - 🇭🇰 香港
       - 🇺🇸 美国 10
       - 🇺🇸 美国 11
+      - 🇺🇸 美国 12
+      - 疾速PRO
+      - 疾速PRO 2
+      - 疾速PRO 3
+      - 疾速PRO 4
+      - 疾速PRO 5
+      - 疾速PRO 6
+      - 疾速PRO 7
+      - 疾速PRO 8
+      - 疾速PRO 9
+      - 疾速PRO 10
+      - 疾速PRO 11
+      - 疾速PRO 12
+      - 疾速PRO 13
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -195,30 +224,35 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇺🇸 美国
-      - 🇨🇦 加拿大
-      - 🇨🇦 加拿大 2
-      - 🇫🇷 法国
+      - 🇵🇱 波兰
       - 🇺🇸 美国 2
-      - 🇨🇦 加拿大 3
+      - 🇬🇧 英国
       - 🇺🇸 美国 3
-      - 🇨🇦 加拿大 4
       - 🇺🇸 美国 4
-      - 🇨🇦 加拿大 5
+      - 🇰🇷 韩国
       - 🇺🇸 美国 5
       - 🇺🇸 美国 6
-      - 🇨🇦 加拿大 6
-      - 🇨🇦 加拿大 7
       - 🇺🇸 美国 7
-      - 🇨🇦 加拿大 8
-      - 🇨🇦 加拿大 9
+      - 🇨🇦 加拿大
+      - 🇵🇱 波兰 2
       - 🇺🇸 美国 8
-      - 🇨🇦 加拿大 10
-      - 🇨🇦 加拿大 11
-      - 🇬🇧 英国
       - 🇺🇸 美国 9
-      - 🇭🇰 香港
       - 🇺🇸 美国 10
       - 🇺🇸 美国 11
+      - 🇺🇸 美国 12
+      - 疾速PRO
+      - 疾速PRO 2
+      - 疾速PRO 3
+      - 疾速PRO 4
+      - 疾速PRO 5
+      - 疾速PRO 6
+      - 疾速PRO 7
+      - 疾速PRO 8
+      - 疾速PRO 9
+      - 疾速PRO 10
+      - 疾速PRO 11
+      - 疾速PRO 12
+      - 疾速PRO 13
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -235,30 +269,35 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇺🇸 美国
-      - 🇨🇦 加拿大
-      - 🇨🇦 加拿大 2
-      - 🇫🇷 法国
+      - 🇵🇱 波兰
       - 🇺🇸 美国 2
-      - 🇨🇦 加拿大 3
+      - 🇬🇧 英国
       - 🇺🇸 美国 3
-      - 🇨🇦 加拿大 4
       - 🇺🇸 美国 4
-      - 🇨🇦 加拿大 5
+      - 🇰🇷 韩国
       - 🇺🇸 美国 5
       - 🇺🇸 美国 6
-      - 🇨🇦 加拿大 6
-      - 🇨🇦 加拿大 7
       - 🇺🇸 美国 7
-      - 🇨🇦 加拿大 8
-      - 🇨🇦 加拿大 9
+      - 🇨🇦 加拿大
+      - 🇵🇱 波兰 2
       - 🇺🇸 美国 8
-      - 🇨🇦 加拿大 10
-      - 🇨🇦 加拿大 11
-      - 🇬🇧 英国
       - 🇺🇸 美国 9
-      - 🇭🇰 香港
       - 🇺🇸 美国 10
       - 🇺🇸 美国 11
+      - 🇺🇸 美国 12
+      - 疾速PRO
+      - 疾速PRO 2
+      - 疾速PRO 3
+      - 疾速PRO 4
+      - 疾速PRO 5
+      - 疾速PRO 6
+      - 疾速PRO 7
+      - 疾速PRO 8
+      - 疾速PRO 9
+      - 疾速PRO 10
+      - 疾速PRO 11
+      - 疾速PRO 12
+      - 疾速PRO 13
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
