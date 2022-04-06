@@ -5,67 +5,63 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 疾速PRO v1, server: 0316ro.fans8.xyz, port: 443, type: vmess, uuid: 1bad0783-9917-32e1-8c53-2bfbbcd18772, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /nl, headers: {Host: 0316ro.fans8.xyz}}}
-  - {name: 疾速PRO v1 2, server: 0320hk567.fans8.xyz, port: 443, type: vmess, uuid: 1bad0783-9917-32e1-8c53-2bfbbcd18772, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 0320hk567.fans8.xyz}}}
-  - {name: 疾速PRO v1 3, server: 0320jp.fans8.xyz, port: 443, type: vmess, uuid: 1bad0783-9917-32e1-8c53-2bfbbcd18772, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 0320jp.fans8.xyz}}}
-  - {name: 疾速PRO v1 4, server: 0320hk857.fans8.xyz, port: 443, type: vmess, uuid: 1bad0783-9917-32e1-8c53-2bfbbcd18772, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 0320hk857.fans8.xyz}}}
-  - {name: 疾速PRO v1 5, server: 0326kr.fans8.xyz, port: 443, type: vmess, uuid: 1bad0783-9917-32e1-8c53-2bfbbcd18772, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 0326kr.fans8.xyz}}}
-  - {name: 疾速PRO v1 6, server: ru333.fans8.xyz, port: 443, type: vmess, uuid: 1bad0783-9917-32e1-8c53-2bfbbcd18772, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: ru333.fans8.xyz}}}
-  - {name: 疾速PRO v1 7, server: 330ru.fans8.xyz, port: 443, type: vmess, uuid: 1bad0783-9917-32e1-8c53-2bfbbcd18772, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 330ru.fans8.xyz}}}
-  - {name: 疾速PRO v1 8, server: 0326hk01.fans8.xyz, port: 443, type: vmess, uuid: 1bad0783-9917-32e1-8c53-2bfbbcd18772, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 0326hk01.fans8.xyz}}}
-  - {name: 疾速PRO v1 9, server: 330hk02.fans8.xyz, port: 443, type: vmess, uuid: 1bad0783-9917-32e1-8c53-2bfbbcd18772, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 330hk02.fans8.xyz}}}
-  - {name: 疾速PRO v1 10, server: 0326tw.fans8.xyz, port: 443, type: vmess, uuid: 1bad0783-9917-32e1-8c53-2bfbbcd18772, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 0326tw.fans8.xyz}}}
-  - {name: 疾速PRO v1 11, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 1bad0783-9917-32e1-8c53-2bfbbcd18772, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 330tw.fans8.xyz}}}
+  - {name: 疾速PRO, server: 0319hzm01.fans8.xyz, port: 443, type: vmess, uuid: 444e5f08-31e3-3ef0-8ce4-e2c04b940d80, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /nmsl, headers: {Host: 0319hzm01.fans8.xyz}}}
+  - {name: 疾速PRO 2, server: 0320hk567.fans8.xyz, port: 443, type: vmess, uuid: 444e5f08-31e3-3ef0-8ce4-e2c04b940d80, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 0320hk567.fans8.xyz}}}
+  - {name: 疾速PRO 3, server: 0326hk01.fans8.xyz, port: 443, type: vmess, uuid: 444e5f08-31e3-3ef0-8ce4-e2c04b940d80, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 0326hk01.fans8.xyz}}}
+  - {name: 疾速PRO 4, server: 0320jp.fans8.xyz, port: 443, type: vmess, uuid: 444e5f08-31e3-3ef0-8ce4-e2c04b940d80, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 0320jp.fans8.xyz}}}
+  - {name: 疾速PRO 5, server: 330hk02.fans8.xyz, port: 443, type: vmess, uuid: 444e5f08-31e3-3ef0-8ce4-e2c04b940d80, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 330hk02.fans8.xyz}}}
+  - {name: 疾速PRO 6, server: ru333.fans8.xyz, port: 443, type: vmess, uuid: 444e5f08-31e3-3ef0-8ce4-e2c04b940d80, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: ru333.fans8.xyz}}}
+  - {name: 疾速PRO 7, server: 0326kr.fans8.xyz, port: 443, type: vmess, uuid: 444e5f08-31e3-3ef0-8ce4-e2c04b940d80, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 0326kr.fans8.xyz}}}
+  - {name: 疾速PRO 8, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 444e5f08-31e3-3ef0-8ce4-e2c04b940d80, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 330tw.fans8.xyz}}}
+  - {name: 疾速PRO 9, server: 0403tw.fans8.xyz, port: 443, type: vmess, uuid: 444e5f08-31e3-3ef0-8ce4-e2c04b940d80, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 0403tw.fans8.xyz}}}
+  - {name: 疾速PRO 10, server: 331tw.fans8.xyz, port: 443, type: vmess, uuid: 444e5f08-31e3-3ef0-8ce4-e2c04b940d80, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 疾速PRO v1
-      - 疾速PRO v1 2
-      - 疾速PRO v1 3
-      - 疾速PRO v1 4
-      - 疾速PRO v1 5
-      - 疾速PRO v1 6
-      - 疾速PRO v1 7
-      - 疾速PRO v1 8
-      - 疾速PRO v1 9
-      - 疾速PRO v1 10
-      - 疾速PRO v1 11
+      - 疾速PRO
+      - 疾速PRO 2
+      - 疾速PRO 3
+      - 疾速PRO 4
+      - 疾速PRO 5
+      - 疾速PRO 6
+      - 疾速PRO 7
+      - 疾速PRO 8
+      - 疾速PRO 9
+      - 疾速PRO 10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 疾速PRO v1
-      - 疾速PRO v1 2
-      - 疾速PRO v1 3
-      - 疾速PRO v1 4
-      - 疾速PRO v1 5
-      - 疾速PRO v1 6
-      - 疾速PRO v1 7
-      - 疾速PRO v1 8
-      - 疾速PRO v1 9
-      - 疾速PRO v1 10
-      - 疾速PRO v1 11
+      - 疾速PRO
+      - 疾速PRO 2
+      - 疾速PRO 3
+      - 疾速PRO 4
+      - 疾速PRO 5
+      - 疾速PRO 6
+      - 疾速PRO 7
+      - 疾速PRO 8
+      - 疾速PRO 9
+      - 疾速PRO 10
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 疾速PRO v1
-      - 疾速PRO v1 2
-      - 疾速PRO v1 3
-      - 疾速PRO v1 4
-      - 疾速PRO v1 5
-      - 疾速PRO v1 6
-      - 疾速PRO v1 7
-      - 疾速PRO v1 8
-      - 疾速PRO v1 9
-      - 疾速PRO v1 10
-      - 疾速PRO v1 11
+      - 疾速PRO
+      - 疾速PRO 2
+      - 疾速PRO 3
+      - 疾速PRO 4
+      - 疾速PRO 5
+      - 疾速PRO 6
+      - 疾速PRO 7
+      - 疾速PRO 8
+      - 疾速PRO 9
+      - 疾速PRO 10
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -76,50 +72,47 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 疾速PRO v1
-      - 疾速PRO v1 2
-      - 疾速PRO v1 3
-      - 疾速PRO v1 4
-      - 疾速PRO v1 5
-      - 疾速PRO v1 6
-      - 疾速PRO v1 7
-      - 疾速PRO v1 8
-      - 疾速PRO v1 9
-      - 疾速PRO v1 10
-      - 疾速PRO v1 11
+      - 疾速PRO
+      - 疾速PRO 2
+      - 疾速PRO 3
+      - 疾速PRO 4
+      - 疾速PRO 5
+      - 疾速PRO 6
+      - 疾速PRO 7
+      - 疾速PRO 8
+      - 疾速PRO 9
+      - 疾速PRO 10
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 疾速PRO v1
-      - 疾速PRO v1 2
-      - 疾速PRO v1 3
-      - 疾速PRO v1 4
-      - 疾速PRO v1 5
-      - 疾速PRO v1 6
-      - 疾速PRO v1 7
-      - 疾速PRO v1 8
-      - 疾速PRO v1 9
-      - 疾速PRO v1 10
-      - 疾速PRO v1 11
+      - 疾速PRO
+      - 疾速PRO 2
+      - 疾速PRO 3
+      - 疾速PRO 4
+      - 疾速PRO 5
+      - 疾速PRO 6
+      - 疾速PRO 7
+      - 疾速PRO 8
+      - 疾速PRO 9
+      - 疾速PRO 10
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 疾速PRO v1
-      - 疾速PRO v1 2
-      - 疾速PRO v1 3
-      - 疾速PRO v1 4
-      - 疾速PRO v1 5
-      - 疾速PRO v1 6
-      - 疾速PRO v1 7
-      - 疾速PRO v1 8
-      - 疾速PRO v1 9
-      - 疾速PRO v1 10
-      - 疾速PRO v1 11
+      - 疾速PRO
+      - 疾速PRO 2
+      - 疾速PRO 3
+      - 疾速PRO 4
+      - 疾速PRO 5
+      - 疾速PRO 6
+      - 疾速PRO 7
+      - 疾速PRO 8
+      - 疾速PRO 9
+      - 疾速PRO 10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -135,17 +128,16 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 疾速PRO v1
-      - 疾速PRO v1 2
-      - 疾速PRO v1 3
-      - 疾速PRO v1 4
-      - 疾速PRO v1 5
-      - 疾速PRO v1 6
-      - 疾速PRO v1 7
-      - 疾速PRO v1 8
-      - 疾速PRO v1 9
-      - 疾速PRO v1 10
-      - 疾速PRO v1 11
+      - 疾速PRO
+      - 疾速PRO 2
+      - 疾速PRO 3
+      - 疾速PRO 4
+      - 疾速PRO 5
+      - 疾速PRO 6
+      - 疾速PRO 7
+      - 疾速PRO 8
+      - 疾速PRO 9
+      - 疾速PRO 10
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
