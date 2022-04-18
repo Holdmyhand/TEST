@@ -5,17 +5,15 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 永久免费 疾速PRO, server: 0319hzm01.fans8.xyz, port: 443, type: vmess, uuid: 8e2b19e4-5c03-3218-9fb7-57fee276278e, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /nmsl, headers: {Host: 0319hzm01.fans8.xyz}}}
-  - {name: 永久免费 疾速PRO 2, server: alisg02.fans8.xyz, port: 443, type: vmess, uuid: 8e2b19e4-5c03-3218-9fb7-57fee276278e, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: alisg02.fans8.xyz}}}
-  - {name: 永久免费 疾速PRO 3, server: 0326kr.fans8.xyz, port: 443, type: vmess, uuid: 8e2b19e4-5c03-3218-9fb7-57fee276278e, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 0326kr.fans8.xyz}}}
-  - {name: 永久免费 疾速PRO 4, server: 48us.fans8.xyz, port: 443, type: vmess, uuid: 8e2b19e4-5c03-3218-9fb7-57fee276278e, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 48us.fans8.xyz}}}
-  - {name: 永久免费 疾速PRO 5, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 8e2b19e4-5c03-3218-9fb7-57fee276278e, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 330tw.fans8.xyz}}}
-  - {name: 永久免费 疾速PRO 6, server: 49hk.fans8.xyz, port: 443, type: vmess, uuid: 8e2b19e4-5c03-3218-9fb7-57fee276278e, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 49hk.fans8.xyz}}}
-  - {name: 永久免费 疾速PRO 7, server: 48hk.fans8.xyz, port: 443, type: vmess, uuid: 8e2b19e4-5c03-3218-9fb7-57fee276278e, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 48hk.fans8.xyz}}}
-  - {name: 永久免费 疾速PRO 8, server: 410hk.fans8.xyz, port: 443, type: vmess, uuid: 8e2b19e4-5c03-3218-9fb7-57fee276278e, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 410hk.fans8.xyz}}}
-  - {name: 永久免费 疾速PRO 9, server: 49sg.fans8.xyz, port: 443, type: vmess, uuid: 8e2b19e4-5c03-3218-9fb7-57fee276278e, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 49sg.fans8.xyz}}}
-  - {name: 永久免费 疾速PRO 10, server: 331tw.fans8.xyz, port: 443, type: vmess, uuid: 8e2b19e4-5c03-3218-9fb7-57fee276278e, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}}
-  - {name: 永久免费 疾速PRO 11, server: 47tw.fans8.xyz, port: 443, type: vmess, uuid: 8e2b19e4-5c03-3218-9fb7-57fee276278e, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 47tw.fans8.xyz}}}
+  - {name: 永久免费 疾速PRO, server: 412hkhk.fans8.xyz, port: 443, type: vmess, uuid: 87f27ad1-829f-3fb6-96f5-733e65f36c45, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 412hkhk.fans8.xyz}}}
+  - {name: 永久免费 疾速PRO 2, server: 331tw.fans8.xyz, port: 443, type: vmess, uuid: 87f27ad1-829f-3fb6-96f5-733e65f36c45, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}}
+  - {name: 永久免费 疾速PRO 3, server: 412sgsg.fans8.xyz, port: 443, type: vmess, uuid: 87f27ad1-829f-3fb6-96f5-733e65f36c45, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 412sgsg.fans8.xyz}}}
+  - {name: 永久免费 疾速PRO 4, server: 48hk.fans8.xyz, port: 443, type: vmess, uuid: 87f27ad1-829f-3fb6-96f5-733e65f36c45, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 48hk.fans8.xyz}}}
+  - {name: 永久免费 疾速PRO 5, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 87f27ad1-829f-3fb6-96f5-733e65f36c45, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 330tw.fans8.xyz}}}
+  - {name: 永久免费 疾速PRO 6, server: alisg02.fans8.xyz, port: 443, type: vmess, uuid: 87f27ad1-829f-3fb6-96f5-733e65f36c45, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: alisg02.fans8.xyz}}}
+  - {name: 永久免费 疾速PRO 7, server: 414hk.fans8.xyz, port: 443, type: vmess, uuid: 87f27ad1-829f-3fb6-96f5-733e65f36c45, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 414hk.fans8.xyz}}}
+  - {name: 永久免费 疾速PRO 8, server: 410hk.fans8.xyz, port: 443, type: vmess, uuid: 87f27ad1-829f-3fb6-96f5-733e65f36c45, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 410hk.fans8.xyz}}}
+  - {name: 永久免费 疾速PRO 9, server: 417tw.fans8.xyz, port: 443, type: vmess, uuid: 87f27ad1-829f-3fb6-96f5-733e65f36c45, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 417tw.fans8.xyz}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -31,8 +29,6 @@ proxy-groups:
       - 永久免费 疾速PRO 7
       - 永久免费 疾速PRO 8
       - 永久免费 疾速PRO 9
-      - 永久免费 疾速PRO 10
-      - 永久免费 疾速PRO 11
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -47,8 +43,6 @@ proxy-groups:
       - 永久免费 疾速PRO 7
       - 永久免费 疾速PRO 8
       - 永久免费 疾速PRO 9
-      - 永久免费 疾速PRO 10
-      - 永久免费 疾速PRO 11
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -64,8 +58,6 @@ proxy-groups:
       - 永久免费 疾速PRO 7
       - 永久免费 疾速PRO 8
       - 永久免费 疾速PRO 9
-      - 永久免费 疾速PRO 10
-      - 永久免费 疾速PRO 11
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -85,8 +77,6 @@ proxy-groups:
       - 永久免费 疾速PRO 7
       - 永久免费 疾速PRO 8
       - 永久免费 疾速PRO 9
-      - 永久免费 疾速PRO 10
-      - 永久免费 疾速PRO 11
   - name: 📲 电报信息
     type: select
     proxies:
@@ -101,8 +91,6 @@ proxy-groups:
       - 永久免费 疾速PRO 7
       - 永久免费 疾速PRO 8
       - 永久免费 疾速PRO 9
-      - 永久免费 疾速PRO 10
-      - 永久免费 疾速PRO 11
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -118,8 +106,6 @@ proxy-groups:
       - 永久免费 疾速PRO 7
       - 永久免费 疾速PRO 8
       - 永久免费 疾速PRO 9
-      - 永久免费 疾速PRO 10
-      - 永久免费 疾速PRO 11
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -144,8 +130,6 @@ proxy-groups:
       - 永久免费 疾速PRO 7
       - 永久免费 疾速PRO 8
       - 永久免费 疾速PRO 9
-      - 永久免费 疾速PRO 10
-      - 永久免费 疾速PRO 11
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
